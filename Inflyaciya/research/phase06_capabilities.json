@@ -1,0 +1,95 @@
+{
+  "phase": "0.6",
+  "checked_at": "2026-10-10T13:45:00+03:00",
+  "endpoint": "https://mcp.vkusvill.ru/mcp",
+  "transport": "MCP Streamable HTTP over HTTPS, JSON-RPC 2.0",
+  "requested_protocol_version": "2025-06-18",
+  "negotiated_protocol_version": "2025-03-26",
+  "server": {
+    "name": "VV MCP Server",
+    "version": "0.0.1",
+    "session_id_returned": false,
+    "initialize_http_status": 200,
+    "initialized_notification_http_status": 202,
+    "tools_list_http_status": 200
+  },
+  "decision": {
+    "option": "B",
+    "label": "MCP подходит с ограничениями",
+    "authorization_state": "PendingAuthorization",
+    "reason": "Анонимные Generic-цены и характеристики воспроизводимы, но StoreBound/AddressBound не подтверждены, OAuth-сессия отсутствует, презервативы и настоящий алкоголь не найдены."
+  },
+  "geographic_binding": {
+    "anonymous_prices": "Generic",
+    "store_bound": "Unavailable",
+    "address_bound": "Unverified",
+    "candidate_store": {
+      "official_page_id": "5047141",
+      "address": "Москва, ул. Маршала Василевского, д. 17",
+      "official_page_status": "Confirmed",
+      "mcp_store_id": null,
+      "mcp_mapping_status": "Unverified"
+    }
+  },
+  "oauth": {
+    "status": "PendingAuthorization",
+    "registration_required": true,
+    "registration_url": "https://vkusvill.ru/oauth/registration/",
+    "authorization_server": "https://oauth.vkusvill.ru/",
+    "authorization_endpoint": "https://oauth.vkusvill.ru/oauth2/auth",
+    "token_endpoint": "https://oauth.vkusvill.ru/oauth2/token",
+    "revocation_endpoint": "https://oauth.vkusvill.ru/oauth2/revoke",
+    "pkce_methods": ["plain", "S256"],
+    "recommended_pkce_method": "S256",
+    "resource_scopes": [
+      "catalog.search",
+      "purchase_history.read",
+      "discounts.view",
+      "recommendations.personalized"
+    ],
+    "refresh_token_grant_advertised": true,
+    "redirect_uri_rules": "Unverified until the user logs in and completes the registration form",
+    "authorized_session_tested": false,
+    "secrets_persisted": false
+  },
+  "tools_discovered": [
+    {"name": "vkusvill_orders_history", "access": "OAuth", "project_policy": "Blocked", "status": "Unavailable"},
+    {"name": "vkusvill_shops", "access": "Anonymous", "project_policy": "ReadOnly", "status": "Partial"},
+    {"name": "vkusvill_products_search", "access": "Anonymous; personalized after OAuth", "project_policy": "ReadOnly", "status": "Confirmed"},
+    {"name": "vkusvill_product_details", "access": "Anonymous; availability after OAuth", "project_policy": "ReadOnly", "status": "Confirmed"},
+    {"name": "vkusvill_product_barcode", "access": "Anonymous according to schema", "project_policy": "ReadOnly", "status": "Partial"},
+    {"name": "vkusvill_product_analogs", "access": "Anonymous; availability after OAuth", "project_policy": "ReadOnly", "status": "Partial"},
+    {"name": "vkusvill_cart_link_create", "access": "Anonymous according to manifest", "project_policy": "Blocked", "status": "Unavailable"},
+    {"name": "vkusvill_products_discount", "access": "Anonymous", "project_policy": "ReadOnly", "status": "Confirmed"},
+    {"name": "vkusvill_product_lp", "access": "OAuth", "project_policy": "Blocked", "status": "Unavailable"},
+    {"name": "vkusvill_recipes", "access": "Anonymous according to schema", "project_policy": "ReadOnly", "status": "Partial"}
+  ],
+  "capabilities": [
+    {"id": "mcp_connection", "status": "Confirmed", "basis": "Rust initialize completed; server negotiated 2025-03-26."},
+    {"id": "tools_list", "status": "Confirmed", "basis": "tools/list returned 10 current schemas."},
+    {"id": "anonymous_product_search", "status": "Confirmed", "basis": "30 real observations collected across 10 queries; responses report personalized=false."},
+    {"id": "product_details_by_id", "status": "Confirmed", "basis": "ID 36296 returned a detailed product record in two fresh sessions."},
+    {"id": "price_extraction", "status": "Confirmed", "basis": "Numeric current prices, currency, and for some items old/discount data were returned."},
+    {"id": "unit_normalization", "status": "Confirmed", "basis": "30/30 sample rows normalized using title amount, MCP weight, or explicit per-kg unit; basis is stored."},
+    {"id": "categories", "status": "Partial", "basis": "Category paths and facets.categories are returned by search; no single complete tree endpoint was proven."},
+    {"id": "pagination", "status": "Confirmed", "basis": "Search exposes page, limit, total, pages and has_more; limit schema maximum is 10."},
+    {"id": "discount_prices", "status": "Confirmed", "basis": "Discount tool returned 854 anonymous results, page size 10, with current/old/discount fields."},
+    {"id": "stable_product_ids", "status": "Partial", "basis": "Repeated ID 36296 and price matched today; long-term stability is not guaranteed."},
+    {"id": "candidate_store_official_page", "status": "Confirmed", "basis": "Official page shop_id=5047141 identifies Marshal Vasilevskogo 17."},
+    {"id": "shop_filtering", "status": "Partial", "basis": "Directory and filter dictionaries were returned, but tested city/subway filter arguments did not change total or first page."},
+    {"id": "store_binding", "status": "Unavailable", "basis": "Anonymous product responses contain neither store context nor availability; 5047141 was not mapped to an MCP ID."},
+    {"id": "address_binding", "status": "Unverified", "basis": "Official instructions require OAuth plus a saved delivery address; no authorized session was created."},
+    {"id": "oauth", "status": "Unverified", "substate": "PendingAuthorization", "basis": "Discovery metadata works, but client registration and user consent are required."},
+    {"id": "condoms", "status": "Unavailable", "basis": "Anonymous searches for презервативы, Contex and Durex each returned total=0."},
+    {"id": "alcohol", "status": "Unavailable", "basis": "Alcohol-oriented searches returned only non-alcoholic or unrelated products; no genuine alcohol result was accepted."},
+    {"id": "weekly_monitoring", "status": "Partial", "basis": "Generic public prices are repeatable and automatable; geographic and personalized-price reproducibility remains unverified."},
+    {"id": "rate_limits", "status": "Partial", "basis": "Client distinguishes HTTP 429 and respects limit<=10; actual threshold was intentionally not stress-tested."}
+  ],
+  "sample": {
+    "observations": 30,
+    "search_groups": 10,
+    "normalized_observations": 30,
+    "authorization_mode": "Anonymous",
+    "binding": "Generic"
+  }
+}

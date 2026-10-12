@@ -1,0 +1,777 @@
+{
+  "aggregate_discrepancies": 0,
+  "aggregate_sources_saved": 2839,
+  "arithmetic_errors": 0,
+  "baikonur_precincts": 7,
+  "coverage_by_category": [
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 7,
+      "missing_protocols": 0,
+      "name": "baikonur",
+      "received_protocols": 7
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 326,
+      "missing_protocols": 0,
+      "name": "foreign",
+      "received_protocols": 326
+    },
+    {
+      "coverage_percent": 97.43401095667134,
+      "discovered_uiks": 88348,
+      "missing_protocols": 2267,
+      "name": "regular",
+      "received_protocols": 86081
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 2718,
+      "missing_protocols": 0,
+      "name": "special",
+      "received_protocols": 2718
+    }
+  ],
+  "coverage_by_federal_district": [
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 7,
+      "missing_protocols": 0,
+      "name": "Байконур",
+      "received_protocols": 7
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 6459,
+      "missing_protocols": 0,
+      "name": "Дальневосточный",
+      "received_protocols": 6459
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 326,
+      "missing_protocols": 0,
+      "name": "Зарубежные участки",
+      "received_protocols": 326
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 20992,
+      "missing_protocols": 0,
+      "name": "Приволжский",
+      "received_protocols": 20992
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 8428,
+      "missing_protocols": 0,
+      "name": "Северо-Западный",
+      "received_protocols": 8428
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 4651,
+      "missing_protocols": 0,
+      "name": "Северо-Кавказский",
+      "received_protocols": 4651
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 12080,
+      "missing_protocols": 0,
+      "name": "Сибирский",
+      "received_protocols": 12080
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 2718,
+      "missing_protocols": 0,
+      "name": "Специальные и зарубежные",
+      "received_protocols": 2718
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 7043,
+      "missing_protocols": 0,
+      "name": "Уральский",
+      "received_protocols": 7043
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 17239,
+      "missing_protocols": 0,
+      "name": "Центральный",
+      "received_protocols": 17239
+    },
+    {
+      "coverage_percent": 80.21124301675978,
+      "discovered_uiks": 11456,
+      "missing_protocols": 2267,
+      "name": "Южный",
+      "received_protocols": 9189
+    }
+  ],
+  "coverage_by_region": [
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 333,
+      "missing_protocols": 0,
+      "name": "Без категории",
+      "received_protocols": 333
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 266,
+      "missing_protocols": 0,
+      "name": "Республика Адыгея (Адыгея)",
+      "received_protocols": 266
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 235,
+      "missing_protocols": 0,
+      "name": "Республика Алтай",
+      "received_protocols": 235
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 3250,
+      "missing_protocols": 0,
+      "name": "Республика Башкортостан",
+      "received_protocols": 3250
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 833,
+      "missing_protocols": 0,
+      "name": "Республика Бурятия",
+      "received_protocols": 833
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 1726,
+      "missing_protocols": 0,
+      "name": "Республика Дагестан",
+      "received_protocols": 1726
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 143,
+      "missing_protocols": 0,
+      "name": "Республика Ингушетия",
+      "received_protocols": 143
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 354,
+      "missing_protocols": 0,
+      "name": "Кабардино-Балкарская Республика",
+      "received_protocols": 354
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 225,
+      "missing_protocols": 0,
+      "name": "Республика Калмыкия",
+      "received_protocols": 225
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 251,
+      "missing_protocols": 0,
+      "name": "Карачаево-Черкесская Республика",
+      "received_protocols": 251
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 473,
+      "missing_protocols": 0,
+      "name": "Республика Карелия",
+      "received_protocols": 473
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 581,
+      "missing_protocols": 0,
+      "name": "Республика Коми",
+      "received_protocols": 581
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 495,
+      "missing_protocols": 0,
+      "name": "Республика Марий Эл",
+      "received_protocols": 495
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 685,
+      "missing_protocols": 0,
+      "name": "Республика Мордовия",
+      "received_protocols": 685
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 799,
+      "missing_protocols": 0,
+      "name": "Республика Саха (Якутия)",
+      "received_protocols": 799
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 334,
+      "missing_protocols": 0,
+      "name": "Республика Северная Осетия - Алания",
+      "received_protocols": 334
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 2742,
+      "missing_protocols": 0,
+      "name": "Республика Татарстан (Татарстан)",
+      "received_protocols": 2742
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 187,
+      "missing_protocols": 0,
+      "name": "Республика Тыва",
+      "received_protocols": 187
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 1107,
+      "missing_protocols": 0,
+      "name": "Удмуртская Республика",
+      "received_protocols": 1107
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 372,
+      "missing_protocols": 0,
+      "name": "Республика Хакасия",
+      "received_protocols": 372
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 541,
+      "missing_protocols": 0,
+      "name": "Чеченская Республика",
+      "received_protocols": 541
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 890,
+      "missing_protocols": 0,
+      "name": "Чувашская Республика - Чувашия",
+      "received_protocols": 890
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 1675,
+      "missing_protocols": 0,
+      "name": "Алтайский край",
+      "received_protocols": 1675
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 2873,
+      "missing_protocols": 0,
+      "name": "Краснодарский край",
+      "received_protocols": 2873
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 2045,
+      "missing_protocols": 0,
+      "name": "Красноярский край",
+      "received_protocols": 2045
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 1476,
+      "missing_protocols": 0,
+      "name": "Приморский край",
+      "received_protocols": 1476
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 1302,
+      "missing_protocols": 0,
+      "name": "Ставропольский край",
+      "received_protocols": 1302
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 769,
+      "missing_protocols": 0,
+      "name": "Хабаровский край",
+      "received_protocols": 769
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 717,
+      "missing_protocols": 0,
+      "name": "Амурская область",
+      "received_protocols": 717
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 767,
+      "missing_protocols": 0,
+      "name": "Архангельская область",
+      "received_protocols": 767
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 576,
+      "missing_protocols": 0,
+      "name": "Астраханская область",
+      "received_protocols": 576
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 1247,
+      "missing_protocols": 0,
+      "name": "Белгородская область",
+      "received_protocols": 1247
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 1025,
+      "missing_protocols": 0,
+      "name": "Брянская область",
+      "received_protocols": 1025
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 943,
+      "missing_protocols": 0,
+      "name": "Владимирская область",
+      "received_protocols": 943
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 1402,
+      "missing_protocols": 0,
+      "name": "Волгоградская область",
+      "received_protocols": 1402
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 909,
+      "missing_protocols": 0,
+      "name": "Вологодская область",
+      "received_protocols": 909
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 1698,
+      "missing_protocols": 0,
+      "name": "Воронежская область",
+      "received_protocols": 1698
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 706,
+      "missing_protocols": 0,
+      "name": "Ивановская область",
+      "received_protocols": 706
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 1895,
+      "missing_protocols": 0,
+      "name": "Иркутская область",
+      "received_protocols": 1895
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 599,
+      "missing_protocols": 0,
+      "name": "Калининградская область",
+      "received_protocols": 599
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 705,
+      "missing_protocols": 0,
+      "name": "Калужская область",
+      "received_protocols": 705
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 1515,
+      "missing_protocols": 0,
+      "name": "Кемеровская область - Кузбасс",
+      "received_protocols": 1515
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 1105,
+      "missing_protocols": 0,
+      "name": "Кировская область",
+      "received_protocols": 1105
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 451,
+      "missing_protocols": 0,
+      "name": "Костромская область",
+      "received_protocols": 451
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 772,
+      "missing_protocols": 0,
+      "name": "Курганская область",
+      "received_protocols": 772
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 884,
+      "missing_protocols": 0,
+      "name": "Курская область",
+      "received_protocols": 884
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 1020,
+      "missing_protocols": 0,
+      "name": "Ленинградская область",
+      "received_protocols": 1020
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 820,
+      "missing_protocols": 0,
+      "name": "Липецкая область",
+      "received_protocols": 820
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 93,
+      "missing_protocols": 0,
+      "name": "Магаданская область",
+      "received_protocols": 93
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 3977,
+      "missing_protocols": 0,
+      "name": "Московская область",
+      "received_protocols": 3977
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 555,
+      "missing_protocols": 0,
+      "name": "Мурманская область",
+      "received_protocols": 555
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 2311,
+      "missing_protocols": 0,
+      "name": "Нижегородская область",
+      "received_protocols": 2311
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 521,
+      "missing_protocols": 0,
+      "name": "Новгородская область",
+      "received_protocols": 521
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 1766,
+      "missing_protocols": 0,
+      "name": "Новосибирская область",
+      "received_protocols": 1766
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 1662,
+      "missing_protocols": 0,
+      "name": "Омская область",
+      "received_protocols": 1662
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 1382,
+      "missing_protocols": 0,
+      "name": "Оренбургская область",
+      "received_protocols": 1382
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 672,
+      "missing_protocols": 0,
+      "name": "Орловская область",
+      "received_protocols": 672
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 945,
+      "missing_protocols": 0,
+      "name": "Пензенская область",
+      "received_protocols": 945
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 571,
+      "missing_protocols": 0,
+      "name": "Псковская область",
+      "received_protocols": 571
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 2507,
+      "missing_protocols": 0,
+      "name": "Ростовская область",
+      "received_protocols": 2507
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 960,
+      "missing_protocols": 0,
+      "name": "Рязанская область",
+      "received_protocols": 960
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 1746,
+      "missing_protocols": 0,
+      "name": "Самарская область",
+      "received_protocols": 1746
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 1647,
+      "missing_protocols": 0,
+      "name": "Саратовская область",
+      "received_protocols": 1647
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 425,
+      "missing_protocols": 0,
+      "name": "Сахалинская область",
+      "received_protocols": 425
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 2272,
+      "missing_protocols": 0,
+      "name": "Свердловская область",
+      "received_protocols": 2272
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 632,
+      "missing_protocols": 0,
+      "name": "Смоленская область",
+      "received_protocols": 632
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 809,
+      "missing_protocols": 0,
+      "name": "Тамбовская область",
+      "received_protocols": 809
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 1092,
+      "missing_protocols": 0,
+      "name": "Тверская область",
+      "received_protocols": 1092
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 728,
+      "missing_protocols": 0,
+      "name": "Томская область",
+      "received_protocols": 728
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 1053,
+      "missing_protocols": 0,
+      "name": "Тульская область",
+      "received_protocols": 1053
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 1070,
+      "missing_protocols": 0,
+      "name": "Тюменская область",
+      "received_protocols": 1070
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 909,
+      "missing_protocols": 0,
+      "name": "Ульяновская область",
+      "received_protocols": 909
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 2201,
+      "missing_protocols": 0,
+      "name": "Челябинская область",
+      "received_protocols": 2201
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 840,
+      "missing_protocols": 0,
+      "name": "Ярославская область",
+      "received_protocols": 840
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 1443,
+      "missing_protocols": 0,
+      "name": "город Москва",
+      "received_protocols": 1443
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 2152,
+      "missing_protocols": 0,
+      "name": "город Санкт-Петербург",
+      "received_protocols": 2152
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 163,
+      "missing_protocols": 0,
+      "name": "Еврейская автономная область",
+      "received_protocols": 163
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 59,
+      "missing_protocols": 0,
+      "name": "Ненецкий автономный округ",
+      "received_protocols": 59
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 728,
+      "missing_protocols": 0,
+      "name": "Ханты-Мансийский автономный округ - Югра",
+      "received_protocols": 728
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 54,
+      "missing_protocols": 0,
+      "name": "Чукотский автономный округ",
+      "received_protocols": 54
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 221,
+      "missing_protocols": 0,
+      "name": "Ямало-Ненецкий автономный округ",
+      "received_protocols": 221
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 1778,
+      "missing_protocols": 0,
+      "name": "Пермский край",
+      "received_protocols": 1778
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 320,
+      "missing_protocols": 0,
+      "name": "Камчатский край",
+      "received_protocols": 320
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 810,
+      "missing_protocols": 0,
+      "name": "Забайкальский край",
+      "received_protocols": 810
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 1128,
+      "missing_protocols": 0,
+      "name": "Республика Крым",
+      "received_protocols": 1128
+    },
+    {
+      "coverage_percent": 100.0,
+      "discovered_uiks": 212,
+      "missing_protocols": 0,
+      "name": "город Севастополь",
+      "received_protocols": 212
+    },
+    {
+      "coverage_percent": 0.0,
+      "discovered_uiks": 764,
+      "missing_protocols": 764,
+      "name": "Донецкая Народная Республика",
+      "received_protocols": 0
+    },
+    {
+      "coverage_percent": 0.0,
+      "discovered_uiks": 651,
+      "missing_protocols": 651,
+      "name": "Луганская Народная Республика",
+      "received_protocols": 0
+    },
+    {
+      "coverage_percent": 0.0,
+      "discovered_uiks": 659,
+      "missing_protocols": 659,
+      "name": "Запорожская область",
+      "received_protocols": 0
+    },
+    {
+      "coverage_percent": 0.0,
+      "discovered_uiks": 193,
+      "missing_protocols": 193,
+      "name": "Херсонская область",
+      "received_protocols": 0
+    }
+  ],
+  "coverage_denominator": "discovered_uiks",
+  "coverage_percent": 97.51966651713914,
+  "discovered_uiks": 91399,
+  "download_errors": 2272,
+  "duplicate_current_protocols": 0,
+  "election_id": 587813923,
+  "foreign_precincts": 326,
+  "generated_at": "2026-10-10T23:27:39.027137300+00:00",
+  "iksrf": 89,
+  "incomplete_protocols": 0,
+  "invalid_protocols": 0,
+  "missing_protocols": 0,
+  "multiple_versions": 0,
+  "official_repeated_protocols": 176,
+  "oik": 225,
+  "received_protocols": 89132,
+  "regions": 89,
+  "repeated_without_prior_saved_version": 176,
+  "sqlite_integrity": "ok",
+  "strict_valid_protocols": 89132,
+  "tik": 2940,
+  "timestamp_semantics": {
+    "election_date": "дата выборов",
+    "protocol_date": "signDateTime: дата и время подписания протокола, если опубликованы",
+    "retrieved_at": "UTC-время получения ответа программой",
+    "source_created_at": "createdAt: дата и время генерации записи в официальной информационной системе, исходный ISO-8601 со смещением"
+  },
+  "uiks_with_multiple_saved_versions": 0,
+  "unavailable_protocols": 2267,
+  "unknown_geography_precincts": 0
+}

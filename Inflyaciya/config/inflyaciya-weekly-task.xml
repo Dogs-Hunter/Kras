@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Task version="1.4" xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task">
+  <RegistrationInfo><Description>Еженедельный read-only мониторинг цен ВкусВилла</Description></RegistrationInfo>
+  <Triggers><CalendarTrigger><StartBoundary>2026-01-05T09:00:00+03:00</StartBoundary><Enabled>true</Enabled><ScheduleByWeek><DaysOfWeek><Monday/></DaysOfWeek><WeeksInterval>1</WeeksInterval></ScheduleByWeek></CalendarTrigger></Triggers>
+  <Principals><Principal id="Author"><LogonType>InteractiveToken</LogonType><RunLevel>LeastPrivilege</RunLevel></Principal></Principals>
+  <Settings><MultipleInstancesPolicy>IgnoreNew</MultipleInstancesPolicy><DisallowStartIfOnBatteries>false</DisallowStartIfOnBatteries><StopIfGoingOnBatteries>false</StopIfGoingOnBatteries><StartWhenAvailable>true</StartWhenAvailable><ExecutionTimeLimit>PT30M</ExecutionTimeLimit></Settings>
+  <Actions Context="Author"><Exec><Command>\\?\C:\Game\Kras\Inflyaciya\target\release\inflyaciya-phase0.exe</Command><Arguments>collect weekly</Arguments><WorkingDirectory>\\?\C:\Game\Kras\Inflyaciya</WorkingDirectory></Exec></Actions>
+</Task>

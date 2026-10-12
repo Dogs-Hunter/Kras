@@ -1,0 +1,76 @@
+{
+  "release_path": "C:\\Game\\Kras\\Vybory\\output\\2026",
+  "reference_path": "C:\\Game\\Kras\\Vybory\\audit\\phase-final\\archive\\previous-output-2026\\candidate-audit1",
+  "csv_columns": 44,
+  "csv_rows": 89132,
+  "unique_uiks": 89132,
+  "numeric_22_mismatches": 0,
+  "protocol_date_nonempty": 0,
+  "source_created_at_nonempty": 89132,
+  "manifest_files": 2759,
+  "manifest_errors": [],
+  "sqlite_integrity": "ok",
+  "foreign_key_violations": 0,
+  "database_counts": {
+    "discovered": 91399,
+    "strict_valid": 89132,
+    "duplicates": 0,
+    "bad_line_sets": 0,
+    "source_metadata": 89132,
+    "aggregate_sources": 2839,
+    "aggregate_source_documents": 2839,
+    "availability_unknown": 2267
+  },
+  "timestamp_parse_errors": 0,
+  "category_counts": {
+    "baikonur": [
+      7,
+      7,
+      0
+    ],
+    "foreign": [
+      326,
+      326,
+      0
+    ],
+    "regular": [
+      88348,
+      86081,
+      2267
+    ],
+    "special": [
+      2718,
+      2718,
+      0
+    ]
+  },
+  "archive": {
+    "path": "C:\\Game\\Kras\\Vybory\\audit\\phase-final\\archive\\previous-output-2026",
+    "previous_manifest_files": 2756,
+    "candidate_manifest_files": 2758,
+    "previous_manifest_errors": [],
+    "candidate_manifest_errors": []
+  },
+  "rust_checks": {
+    "cargo_fmt_check": "passed",
+    "cargo_clippy_all_targets_all_features_deny_warnings": "passed",
+    "cargo_test_no_fail_fast": "passed",
+    "tests_passed": 25,
+    "tests_failed": 0,
+    "cargo_build_release": "passed"
+  },
+  "reproducibility": {
+    "export_command_completed": true,
+    "csv_rows": 89132,
+    "unique_uiks": 89132,
+    "numeric_22_mismatches": 0,
+    "manifest_errors": [],
+    "note": "Времена генерации и соответствующие хэши служебных файлов могут отличаться."
+  },
+  "archive_checksum_inventory": {
+    "path": "C:\\Game\\Kras\\Vybory\\audit\\phase-final\\archive_checksums.json",
+    "file_count": 5517
+  },
+  "workspace_scope": "C:\\Game\\Kras\\Vybory",
+  "publication_status": "published"
+}

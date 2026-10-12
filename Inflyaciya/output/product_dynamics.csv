@@ -1,0 +1,43 @@
+iso_year,iso_week,source_product_id,group,status,current_normalized_price,base_price,change,note
+2026,41,vkusvill:21621,Апельсины,Observed,210,210,0,baseline
+2026,41,vkusvill:57587,Бананы,Observed,168,168,0,baseline
+2026,41,vkusvill:27926,Белая рыба,Observed,1487.5,1487.5,0,baseline
+2026,41,vkusvill:48589,Вода,Observed,29,29,0,baseline
+2026,41,vkusvill:69539,Выпечка,Observed,2087.5,2087.5,0,baseline
+2026,41,vkusvill:62775,Говядина,Observed,1493.33,1493.33,0,baseline
+2026,41,vkusvill:57680,Гречка,Observed,155.56,155.56,0,baseline
+2026,41,vkusvill:15263,Грибы,Observed,520,520,0,baseline
+2026,41,vkusvill:31754,Замороженные овощи,Observed,557.5,557.5,0,baseline
+2026,41,vkusvill:72242,Индейка,Observed,1048.78,1048.78,0,baseline
+2026,41,vkusvill:88970,Картофель,Observed,98.33,98.33,0,baseline
+2026,41,vkusvill:53817,Кетчуп,Observed,428.57,428.57,0,baseline
+2026,41,vkusvill:18271,Кефир,Observed,130,130,0,baseline
+2026,41,vkusvill:72854,Кофе,Observed,5216.67,5216.67,0,baseline
+2026,41,vkusvill:66659,Красная рыба,Observed,3530,3530,0,baseline
+2026,41,vkusvill:90356,Креветки,Observed,2263.33,2263.33,0,baseline
+2026,41,vkusvill:484,Курица,Observed,296,296,0,baseline
+2026,41,vkusvill:35200,Макароны,Observed,264.44,264.44,0,baseline
+2026,41,vkusvill:110357,Молоко,Observed,161.62,161.62,0,baseline
+2026,41,vkusvill:14993,Морковь,Observed,500,500,0,baseline
+2026,41,vkusvill:40576,Овощные консервы,Observed,562.5,562.5,0,baseline
+2026,41,vkusvill:126743,Овсяные хлопья,Observed,537.5,537.5,0,baseline
+2026,41,vkusvill:28740,Огурцы,Observed,750,750,0,baseline
+2026,41,vkusvill:83773,Печенье,Observed,1437.5,1437.5,0,baseline
+2026,41,vkusvill:15378,Помидоры,Observed,265,265,0,baseline
+2026,41,vkusvill:68537,Пшеничная мука,Observed,90,90,0,baseline
+2026,41,vkusvill:35889,Растительное масло,Observed,216,216,0,baseline
+2026,41,vkusvill:32685,Рис,Observed,502.0,502.0,0,baseline
+2026,41,vkusvill:35194,Сахар,Observed,173,173,0,baseline
+2026,41,vkusvill:39792,Свинина,Observed,915.0,915.0,0,baseline
+2026,41,vkusvill:16306,Сливочное масло,Observed,1325.0,1325.0,0,baseline
+2026,41,vkusvill:143,Сметана,Observed,451.43,451.43,0,baseline
+2026,41,vkusvill:47916,Сок,Observed,282,282,0,baseline
+2026,41,vkusvill:44585,Соль,Observed,624,624,0,baseline
+2026,41,vkusvill:40414,Специи,Observed,7479.17,7479.17,0,baseline
+2026,41,vkusvill:43778,Сыр,Observed,1185.0,1185.0,0,baseline
+2026,41,vkusvill:188,Творог,Observed,517.5,517.5,0,baseline
+2026,41,vkusvill:101575,Хлеб,Observed,523.33,523.33,0,baseline
+2026,41,vkusvill:31245,Чай,Observed,2000,2000,0,baseline
+2026,41,vkusvill:39754,Шоколад,Observed,2600,2600,0,baseline
+2026,41,vkusvill:114432,Яблоки,Observed,235,235,0,baseline
+2026,41,vkusvill:20082,Ягоды,Observed,1840,1840,0,baseline

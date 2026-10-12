@@ -1,0 +1,32 @@
+[source]
+id = "vkusvill_official_mcp"
+endpoint = "https://mcp.vkusvill.ru/mcp"
+access_mode = "Anonymous"
+price_context = "Generic"
+request_timeout_seconds = 30
+max_retries = 2
+backoff_milliseconds = 750
+page_limit = 5
+
+[collection]
+frequency_days = 7
+database_path = "data/inflyaciya.sqlite3"
+products_path = "config/products.toml"
+basket_path = "config/basket.toml"
+output_directory = "output"
+logs_directory = "logs"
+
+[budget]
+region = "Москва"
+year = 2026
+minimum_wage_rub = "39730.00"
+share = "0.25"
+tolerance = "0.05"
+normative_source = "https://www.mos.ru/upload/documents/files/4763/SoglashenieominimalnoizarabotnoiplatevgorodeMoskvena2026godmejdyPravitelstvomMoskvimoskovskimiobedineniyamiprofsouzovimoskovskimiobedineniyamirabotodatelei.pdf"
+
+[policy]
+food_only_main_basket = true
+require_normalized_kg_or_l = true
+one_product_per_group = true
+allow_automatic_replacement_after_approval = false
+allow_ordering_tools = false

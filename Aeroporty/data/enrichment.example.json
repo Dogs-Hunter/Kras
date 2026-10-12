@@ -1,0 +1,13 @@
+{
+  "airports": [
+    {
+      "icao": "TAAA",
+      "source": "Official source name and document URL",
+      "source_record_id": "document-record-id",
+      "retrieved_at": "2026-01-01T00:00:00Z",
+      "effective_at": "2026-01-01",
+      "runways": []
+    }
+  ]
+}
+

@@ -1,0 +1,514 @@
+schema_version = 1
+basket_id = "basket-phase2-balanced-20261010T155817Z"
+status = "draft"
+created_at = "2026-10-10T15:58:17.684407100+00:00"
+approved_at = ""
+minimum_wage_rub = "39730.00"
+target_rub = "9932.50"
+minimum_rub = "9435.88"
+maximum_rub = "10429.13"
+total_rub = "10429"
+
+[[items]]
+group = "Апельсины"
+source_product_id = "vkusvill:21621"
+mcp_product_id = 21621
+name = "Апельсины крупные"
+url = "https://vkusvill.ru/goods/apelsiny-krupnye-21621/"
+quantity_packages = 1
+package_price = "210"
+package_amount = "1"
+package_unit = "кг"
+package_fingerprint = "1|кг|1|kg"
+
+[[items]]
+group = "Бананы"
+source_product_id = "vkusvill:57587"
+mcp_product_id = 57587
+name = "Бананы зеленые"
+url = "https://vkusvill.ru/goods/banany-zelenye-57587/"
+quantity_packages = 1
+package_price = "168"
+package_amount = "1"
+package_unit = "кг"
+package_fingerprint = "1|кг|1|kg"
+
+[[items]]
+group = "Белая рыба"
+source_product_id = "vkusvill:27926"
+mcp_product_id = 27926
+name = "Треска филе порционное зам., 400 г"
+url = "https://vkusvill.ru/goods/treska-file-portsionnoe-zam-27926/"
+quantity_packages = 1
+package_price = "595"
+package_amount = "400"
+package_unit = "г"
+package_fingerprint = "400|г|0.4|kg"
+
+[[items]]
+group = "Вода"
+source_product_id = "vkusvill:48589"
+mcp_product_id = 48589
+name = 'Вода минеральная "Легенда гор Архыз", негаз., 5 л'
+url = "https://vkusvill.ru/goods/voda-mineralnaya-legenda-gor-arkhyz-48589/"
+quantity_packages = 1
+package_price = "145"
+package_amount = "5"
+package_unit = "л"
+package_fingerprint = "5|л|5|l"
+
+[[items]]
+group = "Выпечка"
+source_product_id = "vkusvill:69539"
+mcp_product_id = 69539
+name = "Венгерская ватрушка с творогом и цедрой лимона. Пекарня"
+url = "https://vkusvill.ru/goods/vengerskaya-vatrushka-s-tvorogom-i-tsedroy-limona-pekarnya-69539/"
+quantity_packages = 1
+package_price = "167"
+package_amount = "0.08"
+package_unit = "кг"
+package_fingerprint = "0.08|кг|0.08|kg"
+
+[[items]]
+group = "Говядина"
+source_product_id = "vkusvill:62775"
+mcp_product_id = 62775
+name = "Поджарка из говядины, 300 г"
+url = "https://vkusvill.ru/goods/podzharka-iz-govyadiny-62775/"
+quantity_packages = 1
+package_price = "448"
+package_amount = "300"
+package_unit = "г"
+package_fingerprint = "300|г|0.3|kg"
+
+[[items]]
+group = "Гречка"
+source_product_id = "vkusvill:57680"
+mcp_product_id = 57680
+name = "Крупа гречневая Агро-Альянс Экстра Элитная 900 г"
+url = "https://vkusvill.ru/goods/krupa-grechnevaya-agro-alyans-ekstra-elitnaya-900-g-57680/"
+quantity_packages = 1
+package_price = "140"
+package_amount = "900"
+package_unit = "г"
+package_fingerprint = "900|г|0.9|kg"
+
+[[items]]
+group = "Грибы"
+source_product_id = "vkusvill:15263"
+mcp_product_id = 15263
+name = "Грибы Шампиньоны свежие, 400 г"
+url = "https://vkusvill.ru/goods/griby-shampinony-svezhie-15263/"
+quantity_packages = 1
+package_price = "208"
+package_amount = "400"
+package_unit = "г"
+package_fingerprint = "400|г|0.4|kg"
+
+[[items]]
+group = "Замороженные овощи"
+source_product_id = "vkusvill:31754"
+mcp_product_id = 31754
+name = "Итальянский микс"
+url = "https://vkusvill.ru/goods/italyanskiy-miks-31754/"
+quantity_packages = 1
+package_price = "223"
+package_amount = "0.4"
+package_unit = "кг"
+package_fingerprint = "0.4|кг|0.4|kg"
+
+[[items]]
+group = "Индейка"
+source_product_id = "vkusvill:72242"
+mcp_product_id = 72242
+name = "Бедро индейки бескостное Халяль"
+url = "https://vkusvill.ru/goods/bedro-indeyki-beskostnoe-khalyal-72242/"
+quantity_packages = 1
+package_price = "430"
+package_amount = "0.41"
+package_unit = "кг"
+package_fingerprint = "0.41|кг|0.41|kg"
+
+[[items]]
+group = "Картофель"
+source_product_id = "vkusvill:88970"
+mcp_product_id = 88970
+name = "Картофель для жарки, 3 кг"
+url = "https://vkusvill.ru/goods/kartofel-dlya-zharki-88970/"
+quantity_packages = 1
+package_price = "295"
+package_amount = "3"
+package_unit = "кг"
+package_fingerprint = "3|кг|3|kg"
+
+[[items]]
+group = "Кетчуп"
+source_product_id = "vkusvill:53817"
+mcp_product_id = 53817
+name = 'Кетчуп "Томатный"'
+url = "https://vkusvill.ru/goods/ketchup-tomatnyy-53817/"
+quantity_packages = 1
+package_price = "150"
+package_amount = "0.35"
+package_unit = "кг"
+package_fingerprint = "0.35|кг|0.35|kg"
+
+[[items]]
+group = "Кефир"
+source_product_id = "vkusvill:18271"
+mcp_product_id = 18271
+name = "Кефир 3,2% в бутылке, 900 г"
+url = "https://vkusvill.ru/goods/kefir-3-18271/"
+quantity_packages = 1
+package_price = "117"
+package_amount = "900"
+package_unit = "г"
+package_fingerprint = "900|г|0.9|kg"
+
+[[items]]
+group = "Кофе"
+source_product_id = "vkusvill:72854"
+mcp_product_id = 72854
+name = 'Кофе жареный молотый в дрип-пакетах "Бразилия"'
+url = "https://vkusvill.ru/goods/kofe-zharenyy-molotyy-v-drip-paketakh-braziliya-72854/"
+quantity_packages = 1
+package_price = "313"
+package_amount = "0.06"
+package_unit = "кг"
+package_fingerprint = "0.06|кг|0.06|kg"
+
+[[items]]
+group = "Красная рыба"
+source_product_id = "vkusvill:66659"
+mcp_product_id = 66659
+name = "Горбуша слабосоленая ломтики, 100 г"
+url = "https://vkusvill.ru/goods/gorbusha-slabosolenaya-lomtiki-66659/"
+quantity_packages = 1
+package_price = "353"
+package_amount = "100"
+package_unit = "г"
+package_fingerprint = "100|г|0.1|kg"
+
+[[items]]
+group = "Креветки"
+source_product_id = "vkusvill:90356"
+mcp_product_id = 90356
+name = "Креветки Бухта изобилия Королевские очищенные варено-мороженые 300 г"
+url = "https://vkusvill.ru/goods/krevetki-bukhta-izobiliya-korolevskie-ochishchennye-vareno-morozhenye-300-g-90356/"
+quantity_packages = 1
+package_price = "679"
+package_amount = "300"
+package_unit = "г"
+package_fingerprint = "300|г|0.3|kg"
+
+[[items]]
+group = "Курица"
+source_product_id = "vkusvill:484"
+mcp_product_id = 484
+name = "Тушка цыпленка-бройлера, охлажденная"
+url = "https://vkusvill.ru/goods/tushka-tsyplenka-broylera-484/"
+quantity_packages = 1
+package_price = "296"
+package_amount = "1"
+package_unit = "кг"
+package_fingerprint = "1|кг|1|kg"
+
+[[items]]
+group = "Макароны"
+source_product_id = "vkusvill:35200"
+mcp_product_id = 35200
+name = "Макаронные изделия Barilla №73 Пенне Ригате перья 450 г"
+url = "https://vkusvill.ru/goods/makaronnye-izdeliya-barilla-73-penne-rigate-perya-450-g-35200/"
+quantity_packages = 1
+package_price = "119"
+package_amount = "450"
+package_unit = "г"
+package_fingerprint = "450|г|0.45|kg"
+
+[[items]]
+group = "Молоко"
+source_product_id = "vkusvill:110357"
+mcp_product_id = 110357
+name = "Молоко Чабан отборное 3,4-4,5% канистра 1,85 л"
+url = "https://vkusvill.ru/goods/moloko-chaban-otbornoe-3-110357/"
+quantity_packages = 1
+package_price = "299"
+package_amount = "1.85"
+package_unit = "л"
+package_fingerprint = "1.85|л|1.85|l"
+
+[[items]]
+group = "Морковь"
+source_product_id = "vkusvill:14993"
+mcp_product_id = 14993
+name = "Морковь-мини"
+url = "https://vkusvill.ru/goods/morkov-mini-14993/"
+quantity_packages = 1
+package_price = "125"
+package_amount = "0.25"
+package_unit = "кг"
+package_fingerprint = "0.25|кг|0.25|kg"
+
+[[items]]
+group = "Овощные консервы"
+source_product_id = "vkusvill:40576"
+mcp_product_id = 40576
+name = "Зеленый горошек Бондюэль Нежный 400 г"
+url = "https://vkusvill.ru/goods/zelenyy-goroshek-bondyuel-nezhnyy-400-g-40576/"
+quantity_packages = 1
+package_price = "225"
+package_amount = "400"
+package_unit = "г"
+package_fingerprint = "400|г|0.4|kg"
+
+[[items]]
+group = "Овсяные хлопья"
+source_product_id = "vkusvill:126743"
+mcp_product_id = 126743
+name = "Хлопья Nordic овсяные Геркулес финский 400 г"
+url = "https://vkusvill.ru/goods/khlopya-nordic-ovsyanye-gerkules-finskiy-400-g-126743/"
+quantity_packages = 1
+package_price = "215"
+package_amount = "400"
+package_unit = "г"
+package_fingerprint = "400|г|0.4|kg"
+
+[[items]]
+group = "Огурцы"
+source_product_id = "vkusvill:28740"
+mcp_product_id = 28740
+name = 'Огурцы "Корнишоны", 300 г'
+url = "https://vkusvill.ru/goods/ogurtsy-kornishony-28740/"
+quantity_packages = 1
+package_price = "225"
+package_amount = "300"
+package_unit = "г"
+package_fingerprint = "300|г|0.3|kg"
+
+[[items]]
+group = "Печенье"
+source_product_id = "vkusvill:83773"
+mcp_product_id = 83773
+name = 'Печенье "Творожно-сливочное" с изюмом'
+url = "https://vkusvill.ru/goods/pechene-tvorozhno-slivochnoe-s-izyumom-83773/"
+quantity_packages = 1
+package_price = "230"
+package_amount = "0.16"
+package_unit = "кг"
+package_fingerprint = "0.16|кг|0.16|kg"
+
+[[items]]
+group = "Помидоры"
+source_product_id = "vkusvill:15378"
+mcp_product_id = 15378
+name = "Томаты розовые"
+url = "https://vkusvill.ru/goods/tomaty-rozovye-15378/"
+quantity_packages = 1
+package_price = "265"
+package_amount = "1"
+package_unit = "кг"
+package_fingerprint = "1|кг|1|kg"
+
+[[items]]
+group = "Пшеничная мука"
+source_product_id = "vkusvill:68537"
+mcp_product_id = 68537
+name = "Мука пшеничная Предпортовая в/с 2 кг"
+url = "https://vkusvill.ru/goods/muka-pshenichnaya-predportovaya-v-s-2-kg-68537/"
+quantity_packages = 1
+package_price = "180"
+package_amount = "2"
+package_unit = "кг"
+package_fingerprint = "2|кг|2|kg"
+
+[[items]]
+group = "Растительное масло"
+source_product_id = "vkusvill:35889"
+mcp_product_id = 35889
+name = "Масло подсолнечное Слобода рафинированное дезодорированное 1 л"
+url = "https://vkusvill.ru/goods/maslo-podsolnechnoe-sloboda-rafinirovannoe-dezodorirovannoe-1-l-35889/"
+quantity_packages = 1
+package_price = "216"
+package_amount = "1"
+package_unit = "л"
+package_fingerprint = "1|л|1|l"
+
+[[items]]
+group = "Рис"
+source_product_id = "vkusvill:32685"
+mcp_product_id = 32685
+name = "Рис Мистраль Басмати 500 г"
+url = "https://vkusvill.ru/goods/ris-mistral-basmati-500-g-32685/"
+quantity_packages = 1
+package_price = "251"
+package_amount = "500"
+package_unit = "г"
+package_fingerprint = "500|г|0.5|kg"
+
+[[items]]
+group = "Сахар"
+source_product_id = "vkusvill:35194"
+mcp_product_id = 35194
+name = "Сахар-рафинад Русский сахар 1 кг"
+url = "https://vkusvill.ru/goods/sakhar-rafinad-russkiy-sakhar-1-kg-35194/"
+quantity_packages = 1
+package_price = "173"
+package_amount = "1"
+package_unit = "кг"
+package_fingerprint = "1|кг|1|kg"
+
+[[items]]
+group = "Свинина"
+source_product_id = "vkusvill:39792"
+mcp_product_id = 39792
+name = "Эскалоп свиной, 400 г"
+url = "https://vkusvill.ru/goods/eskalop-svinoy-39792/"
+quantity_packages = 1
+package_price = "366"
+package_amount = "400"
+package_unit = "г"
+package_fingerprint = "400|г|0.4|kg"
+
+[[items]]
+group = "Сливочное масло"
+source_product_id = "vkusvill:16306"
+mcp_product_id = 16306
+name = "Масло сливочное 82,5%, 200 г"
+url = "https://vkusvill.ru/goods/maslo-slivochnoe-82-16306/"
+quantity_packages = 1
+package_price = "265"
+package_amount = "200"
+package_unit = "г"
+package_fingerprint = "200|г|0.2|kg"
+
+[[items]]
+group = "Сметана"
+source_product_id = "vkusvill:143"
+mcp_product_id = 143
+name = "Сметана 20%, 350 г"
+url = "https://vkusvill.ru/goods/smetana-20-143/"
+quantity_packages = 1
+package_price = "158"
+package_amount = "350"
+package_unit = "г"
+package_fingerprint = "350|г|0.35|kg"
+
+[[items]]
+group = "Сок"
+source_product_id = "vkusvill:47916"
+mcp_product_id = 47916
+name = "Сок апельсиновый с мякотью восстановленный, 1 л"
+url = "https://vkusvill.ru/goods/sok-apelsinovyy-s-myakotyu-vosstanovlennyy-47916/"
+quantity_packages = 1
+package_price = "282"
+package_amount = "1"
+package_unit = "л"
+package_fingerprint = "1|л|1|l"
+
+[[items]]
+group = "Соль"
+source_product_id = "vkusvill:44585"
+mcp_product_id = 44585
+name = "Соль морская Setra пищевая йодированная мелкая п/б 250 г"
+url = "https://vkusvill.ru/goods/sol-morskaya-setra-pishchevaya-yodirovannaya-melkaya-p-b-250-g-44585/"
+quantity_packages = 1
+package_price = "156"
+package_amount = "250"
+package_unit = "г"
+package_fingerprint = "250|г|0.25|kg"
+
+[[items]]
+group = "Специи"
+source_product_id = "vkusvill:40414"
+mcp_product_id = 40414
+name = "Итальянские травы Kotanyi мельница 48 г"
+url = "https://vkusvill.ru/goods/italyanskie-travy-kotanyi-melnitsa-48-g-40414/"
+quantity_packages = 1
+package_price = "359"
+package_amount = "48"
+package_unit = "г"
+package_fingerprint = "48|г|0.048|kg"
+
+[[items]]
+group = "Сыр"
+source_product_id = "vkusvill:43778"
+mcp_product_id = 43778
+name = 'Сыр "Российский", 200 г'
+url = "https://vkusvill.ru/goods/syr-rossiyskiy-43778/"
+quantity_packages = 1
+package_price = "237"
+package_amount = "200"
+package_unit = "г"
+package_fingerprint = "200|г|0.2|kg"
+
+[[items]]
+group = "Творог"
+source_product_id = "vkusvill:188"
+mcp_product_id = 188
+name = "Творог 9%, 400 г"
+url = "https://vkusvill.ru/goods/tvorog-9-188/"
+quantity_packages = 1
+package_price = "207"
+package_amount = "400"
+package_unit = "г"
+package_fingerprint = "400|г|0.4|kg"
+
+[[items]]
+group = "Хлеб"
+source_product_id = "vkusvill:101575"
+mcp_product_id = 101575
+name = "Тартин зерновой, 300г. Пекарня"
+url = "https://vkusvill.ru/goods/tartin-zernovoy-101575/"
+quantity_packages = 1
+package_price = "157"
+package_amount = "0.3"
+package_unit = "кг"
+package_fingerprint = "0.3|кг|0.3|kg"
+
+[[items]]
+group = "Чай"
+source_product_id = "vkusvill:31245"
+mcp_product_id = 31245
+name = 'Чай черный "Цейлонский" листовой'
+url = "https://vkusvill.ru/goods/chay-chernyy-tseylonskiy-listovoy-31245/"
+quantity_packages = 1
+package_price = "200"
+package_amount = "0.1"
+package_unit = "кг"
+package_fingerprint = "0.1|кг|0.1|kg"
+
+[[items]]
+group = "Шоколад"
+source_product_id = "vkusvill:39754"
+mcp_product_id = 39754
+name = "Шоколад молочный с печеньем"
+url = "https://vkusvill.ru/goods/shokolad-molochnyy-s-pechenem-39754/"
+quantity_packages = 1
+package_price = "117"
+package_amount = "0.045"
+package_unit = "кг"
+package_fingerprint = "0.045|кг|0.045|kg"
+
+[[items]]
+group = "Яблоки"
+source_product_id = "vkusvill:114432"
+mcp_product_id = 114432
+name = "Яблоко вишневое"
+url = "https://vkusvill.ru/goods/yabloko-vishnevoe-114432/"
+quantity_packages = 1
+package_price = "235"
+package_amount = "1"
+package_unit = "кг"
+package_fingerprint = "1|кг|1|kg"
+
+[[items]]
+group = "Ягоды"
+source_product_id = "vkusvill:20082"
+mcp_product_id = 20082
+name = "Голубика, 125 г"
+url = "https://vkusvill.ru/goods/golubika-20082/"
+quantity_packages = 1
+package_price = "230"
+package_amount = "125"
+package_unit = "г"
+package_fingerprint = "125|г|0.125|kg"

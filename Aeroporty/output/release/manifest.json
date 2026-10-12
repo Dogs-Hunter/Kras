@@ -1,0 +1,192 @@
+{
+  "application": "Aeroporty",
+  "application_version": "1.0.0",
+  "release_date": "2026-10-12",
+  "source_dataset": "output/candidate-phase5",
+  "airports": 10573,
+  "physical_runways": 14259,
+  "independently_verified_values": 18079,
+  "timezone_database": "2026d",
+  "export_schema": {
+    "airport_fields": [
+      "icao",
+      "latitude",
+      "longitude",
+      "status",
+      "type",
+      "country",
+      "elevation_ft",
+      "timezone",
+      "runways_count",
+      "id",
+      "name"
+    ],
+    "runway_fields": [
+      "id",
+      "length_ft",
+      "surface"
+    ],
+    "units": {
+      "elevation_ft": "feet above mean sea level",
+      "latitude/longitude": "decimal degrees (WGS84)",
+      "runway.length_ft": "feet",
+      "runways_count": "physical land runways"
+    },
+    "csv_shape": "one row per physical runway; airport columns repeat; provenance and evidence are lossless JSON columns",
+    "nested_shape": "JSON, TOML and YAML contain airports with nested runways"
+  },
+  "reproduction_command": "cargo run --release -- run --offline && cargo run --release -- release",
+  "current_source_update_command": "cargo run --release -- update (may produce a newer, different snapshot)",
+  "sources": [
+    {
+      "name": "OurAirports/airports.csv",
+      "url": "https://davidmegginson.github.io/ourairports-data/airports.csv",
+      "local_file": "cache/airports.csv",
+      "retrieved_at": "2026-10-09T19:57:43.979975200+00:00",
+      "etag": "W/\"6ac84935-c27212\"",
+      "last_modified": "Fri, 09 Oct 2026 01:53:57 GMT"
+    },
+    {
+      "name": "OurAirports/runways.csv",
+      "url": "https://davidmegginson.github.io/ourairports-data/runways.csv",
+      "local_file": "cache/runways.csv",
+      "retrieved_at": "2026-10-09T19:57:44.262544200+00:00",
+      "etag": "W/\"6ac84935-3c91a3\"",
+      "last_modified": "Fri, 09 Oct 2026 01:53:57 GMT"
+    },
+    {
+      "name": "OurAirports/countries.csv",
+      "url": "https://davidmegginson.github.io/ourairports-data/countries.csv",
+      "local_file": "cache/countries.csv",
+      "retrieved_at": "2026-10-09T19:57:44.367403200+00:00",
+      "etag": "W/\"6ac84935-6007\"",
+      "last_modified": "Fri, 09 Oct 2026 01:53:57 GMT"
+    },
+    {
+      "name": "FAA/NASR APT",
+      "url": "https://nfdc.faa.gov/webContent/28DaySub/extra/01_Oct_2026_APT_CSV.zip?download=1",
+      "local_file": "cache/faa/2026-10-01/01_Oct_2026_APT_CSV.zip",
+      "retrieved_at": "2026-10-10T01:08:50.089569400+00:00",
+      "etag": "W/\"8030968-1788380298842\"",
+      "last_modified": "Wed, 02 Sep 2026 20:18:18 GMT"
+    },
+    {
+      "name": "ANAC/public_v2.csv",
+      "url": "https://sistemas.anac.gov.br/dadosabertos/Aerodromos/Aer%C3%B3dromos%20P%C3%BAblicos/Lista%20de%20aer%C3%B3dromos%20p%C3%BAblicos/AerodromosPublicos.csv",
+      "local_file": "cache/anac/2026-10-11/public_v2.csv",
+      "retrieved_at": "2026-10-11T14:38:13.112267+00:00",
+      "etag": null,
+      "last_modified": null
+    },
+    {
+      "name": "ANAC/private_v2.csv",
+      "url": "https://sistemas.anac.gov.br/dadosabertos/Aerodromos/Aer%C3%B3dromos%20Privados/Lista%20de%20aer%C3%B3dromos%20privados/Aerodromos%20Privados/AerodromosPrivados.csv",
+      "local_file": "cache/anac/2026-10-11/private_v2.csv",
+      "retrieved_at": "2026-10-11T14:38:13.112267+00:00",
+      "etag": null,
+      "last_modified": null
+    },
+    {
+      "name": "ANAC/general.csv",
+      "url": "https://sistemas.anac.gov.br/dadosabertos/Aerodromos/Aer%C3%B3dromos%20P%C3%BAblicos/Caracter%C3%ADsticas%20Gerais/pda_aerodromos_publicos_caracteristicas_gerais.csv",
+      "local_file": "cache/anac/2026-10-11/general.csv",
+      "retrieved_at": "2026-10-11T14:38:13.112267+00:00",
+      "etag": null,
+      "last_modified": null
+    },
+    {
+      "name": "ANAC/runways.csv",
+      "url": "https://sistemas.anac.gov.br/dadosabertos/Aerodromos/Aer%C3%B3dromos%20P%C3%BAblicos/Pistas%20de%20Pouso%20e%20Decolagem/pda_aerodromos_publicos_pistas_pouso_decolagem.csv",
+      "local_file": "cache/anac/2026-10-11/runways.csv",
+      "retrieved_at": "2026-10-11T14:38:13.112267+00:00",
+      "etag": null,
+      "last_modified": null
+    },
+    {
+      "name": "ANAC/siros.csv",
+      "url": "https://siros.anac.gov.br/siros/registros/aerodromo/aerodromos.csv",
+      "local_file": "cache/anac/2026-10-11/siros.csv",
+      "retrieved_at": "2026-10-11T14:38:13.112267+00:00",
+      "etag": null,
+      "last_modified": null
+    }
+  ],
+  "source_policies": [
+    {
+      "source": "ANAC current public/private V2 CSV and JSON",
+      "official_url": "https://www.gov.br/anac/pt-br/acesso-a-informacao/dados-abertos/areas-de-atuacao/aerodromos",
+      "access": "public immutable snapshots",
+      "license_or_terms": "Brazil Decree 8,777/2016 open-data reuse basis; attribution retained",
+      "integrated": true,
+      "reason": "current official registry; JSON independently confirms that every public runway field is null"
+    },
+    {
+      "source": "ANAC general 2023 / public runways 2024",
+      "official_url": "https://www.gov.br/anac/pt-br/acesso-a-informacao/dados-abertos/areas-de-atuacao/aerodromos/aerodromos-publicos",
+      "access": "public historical snapshots",
+      "license_or_terms": "same federal open-data policy",
+      "integrated": false,
+      "reason": "retained only as historical observations and version-diff inputs; never promoted automatically"
+    },
+    {
+      "source": "FAA Chart Supplement and airport diagrams",
+      "official_url": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/dafd/",
+      "access": "public official effective publications",
+      "license_or_terms": "United States Government aeronautical publication; attribution retained",
+      "integrated": true,
+      "reason": "corroborates seven current NASR physical-runway lengths and documents KPAE change"
+    },
+    {
+      "source": "ANAC Portaria 18.582/SIA and signed LCA",
+      "official_url": "https://pergamum.anac.gov.br/arquivos/PA2026-18.582.pdf",
+      "access": "public official act",
+      "license_or_terms": "official ANAC document; source and effective date retained",
+      "integrated": true,
+      "reason": "documents SIRI 11/29 at 1400.01 m and the revision history"
+    },
+    {
+      "source": "Canada/Québec Aéroport - Piste",
+      "official_url": "https://open.canada.ca/data/en/dataset/ea44f51b-2866-4641-9ee7-8b05ebc1b124",
+      "access": "public regional GIS",
+      "license_or_terms": "CC BY 4.0 Québec",
+      "integrated": false,
+      "reason": "not a complete national aerodrome registry and lacks mandatory airport attributes"
+    },
+    {
+      "source": "Australia Airservices / EUROCONTROL EAD / Japan MLIT",
+      "official_url": "https://www.airservicesaustralia.com/aip/aip.asp",
+      "access": "official but restricted/incomplete structured access",
+      "license_or_terms": "redistribution licence not established for a complete compatible derivative",
+      "integrated": false,
+      "reason": "no candidate met completeness, reproducibility, and reuse requirements"
+    }
+  ],
+  "files": [
+    {
+      "name": "airports.csv",
+      "size_bytes": 75948109,
+      "sha256": "7a981d1b88727425782c6cbfd658a9bb447bf745c9794f3a45a9bb121d9722de"
+    },
+    {
+      "name": "airports.json",
+      "size_bytes": 88548517,
+      "sha256": "261255c64ff431fa7896b65524e32d0faf0079f02bfc0546e14d607428df13f0"
+    },
+    {
+      "name": "airports.toml",
+      "size_bytes": 61846556,
+      "sha256": "fb839d268a240f0a50725d278fd90e5b215d507cfcfda393fad57a64a0dd0c79"
+    },
+    {
+      "name": "airports.yaml",
+      "size_bytes": 62798712,
+      "sha256": "7e6b99e2df4b35e602645f1c2fcf485ffb4d4512edb0b4c02392b6ba94ff21f6"
+    },
+    {
+      "name": "validation_report.json",
+      "size_bytes": 4600,
+      "sha256": "3075e44babb52979411e90622f60321e5d61654580820db6749b120257c771f6"
+    }
+  ],
+  "manifest_note": "manifest.json is not self-hashed; every other release file is covered below"
+}

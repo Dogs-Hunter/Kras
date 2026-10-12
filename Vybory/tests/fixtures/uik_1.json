@@ -1,0 +1,38 @@
+{
+  "reportType": "242",
+  "id": "fixture-report-1",
+  "createdAt": "2026-09-21T10:00:00+03:00",
+  "body": {
+    "electionsId": "fixture-election",
+    "commissionClassifierId": "fixture-uik-1",
+    "protocolId": "fixture-protocol-1",
+    "protocolNum": 2,
+    "signed": true,
+    "signDateTime": "2026-09-20T22:00:00",
+    "repeated": false,
+    "records": [
+      {"infoPrintNum":"1","value":"100","infoText":"Строка 1","category":"records"},
+      {"infoPrintNum":"2","value":"100","infoText":"Строка 2","category":"records"},
+      {"infoPrintNum":"3","value":"0","infoText":"Строка 3","category":"records"},
+      {"infoPrintNum":"4","value":"80","infoText":"Строка 4","category":"records"},
+      {"infoPrintNum":"5","value":"10","infoText":"Строка 5","category":"records"},
+      {"infoPrintNum":"6","value":"10","infoText":"Строка 6","category":"records"},
+      {"infoPrintNum":"7","value":"10","infoText":"Строка 7","category":"records"},
+      {"infoPrintNum":"8","value":"80","infoText":"Строка 8","category":"records"},
+      {"infoPrintNum":"9","value":"5","infoText":"Строка 9","category":"records"},
+      {"infoPrintNum":"10","value":"85","infoText":"Строка 10","category":"records"},
+      {"infoPrintNum":"11","value":"0","infoText":"Строка 11","category":"records"},
+      {"infoPrintNum":"12","value":"0","infoText":"Строка 12","category":"records"},
+      {"infoPrintNum":"13","value":"20","infoText":"Партия 1","category":"1"},
+      {"infoPrintNum":"14","value":"15","infoText":"Партия 2","category":"1"},
+      {"infoPrintNum":"15","value":"10","infoText":"Партия 3","category":"1"},
+      {"infoPrintNum":"16","value":"8","infoText":"Партия 4","category":"1"},
+      {"infoPrintNum":"17","value":"7","infoText":"Партия 5","category":"1"},
+      {"infoPrintNum":"18","value":"6","infoText":"Партия 6","category":"1"},
+      {"infoPrintNum":"19","value":"5","infoText":"Партия 7","category":"1"},
+      {"infoPrintNum":"20","value":"5","infoText":"Партия 8","category":"1"},
+      {"infoPrintNum":"21","value":"4","infoText":"Партия 9","category":"1"},
+      {"infoPrintNum":"22","value":"5","infoText":"Партия 10","category":"1"}
+    ]
+  }
+}

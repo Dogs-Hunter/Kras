@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"ok\":true,\"data\":{\"meta\":{\"personalized\":false},\"items\":[{\"id\":36296,\"xml_id\":36296,\"name\":\"Молоко 2,5%\",\"price\":{\"current\":100,\"old\":120,\"currency\":\"RUB\"}}]}}"
+    }
+  ],
+  "isError": false
+}

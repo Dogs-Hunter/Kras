@@ -1,0 +1,20 @@
+[store]
+chain = "Перекрёсток"
+city = "Москва"
+address = "Щукинская улица, 42, ТРК «Щука»"
+perekrestok_sap_id = "B153"
+kuper_store_id = ""
+kuper_store_id_status = "Unverified"
+
+[sources.kuper]
+catalog_url = "https://kuper.ru/perekrestok"
+pickup_url = "https://kuper.ru/pickup"
+alcohol_url = "https://kuper.ru/perekrestok/c/skidki-i-aktsii/skidki/alkogol-cc137d2"
+
+[sources.perekrestok]
+catalog_url = "https://www.perekrestok.ru/"
+condoms_url = "https://www.perekrestok.ru/cat/c/99/prezervativy-smazki"
+
+[policy]
+allow_unconfirmed_store_binding = false
+request_interval_days = 7

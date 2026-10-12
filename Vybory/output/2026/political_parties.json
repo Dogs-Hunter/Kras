@@ -1,0 +1,62 @@
+[
+  {
+    "ballot_position": 1,
+    "official_name": "Всероссийская политическая партия \"ЕДИНАЯ РОССИЯ\"",
+    "protocol_line": 13,
+    "source_url": "http://apps.cikrf.ru/service/ik-inp-service-pbcopy/reports/242?commissionClassifierId=f0130cef-663a-4c57-b8ff-17054f8fa34e&protocolNum=2"
+  },
+  {
+    "ballot_position": 2,
+    "official_name": "Политическая партия ЛДПР – Либерально-демократическая партия России",
+    "protocol_line": 14,
+    "source_url": "http://apps.cikrf.ru/service/ik-inp-service-pbcopy/reports/242?commissionClassifierId=f0130cef-663a-4c57-b8ff-17054f8fa34e&protocolNum=2"
+  },
+  {
+    "ballot_position": 3,
+    "official_name": "Политическая партия \"Партия прямой демократии\"",
+    "protocol_line": 15,
+    "source_url": "http://apps.cikrf.ru/service/ik-inp-service-pbcopy/reports/242?commissionClassifierId=f0130cef-663a-4c57-b8ff-17054f8fa34e&protocolNum=2"
+  },
+  {
+    "ballot_position": 4,
+    "official_name": "Политическая партия \"Российская экологическая партия \"ЗЕЛЁНЫЕ\"",
+    "protocol_line": 16,
+    "source_url": "http://apps.cikrf.ru/service/ik-inp-service-pbcopy/reports/242?commissionClassifierId=f0130cef-663a-4c57-b8ff-17054f8fa34e&protocolNum=2"
+  },
+  {
+    "ballot_position": 5,
+    "official_name": "Социалистическая политическая партия СПРАВЕДЛИВАЯ РОССИЯ",
+    "protocol_line": 17,
+    "source_url": "http://apps.cikrf.ru/service/ik-inp-service-pbcopy/reports/242?commissionClassifierId=f0130cef-663a-4c57-b8ff-17054f8fa34e&protocolNum=2"
+  },
+  {
+    "ballot_position": 6,
+    "official_name": "ВСЕРОССИЙСКАЯ ПОЛИТИЧЕСКАЯ ПАРТИЯ \"РОДИНА\"",
+    "protocol_line": 18,
+    "source_url": "http://apps.cikrf.ru/service/ik-inp-service-pbcopy/reports/242?commissionClassifierId=f0130cef-663a-4c57-b8ff-17054f8fa34e&protocolNum=2"
+  },
+  {
+    "ballot_position": 7,
+    "official_name": "КПРФ - политическая партия КОММУНИСТИЧЕСКАЯ ПАРТИЯ РОССИЙСКОЙ ФЕДЕРАЦИИ",
+    "protocol_line": 19,
+    "source_url": "http://apps.cikrf.ru/service/ik-inp-service-pbcopy/reports/242?commissionClassifierId=f0130cef-663a-4c57-b8ff-17054f8fa34e&protocolNum=2"
+  },
+  {
+    "ballot_position": 8,
+    "official_name": "ПАРТИЯ ПЕНСИОНЕРОВ",
+    "protocol_line": 20,
+    "source_url": "http://apps.cikrf.ru/service/ik-inp-service-pbcopy/reports/242?commissionClassifierId=f0130cef-663a-4c57-b8ff-17054f8fa34e&protocolNum=2"
+  },
+  {
+    "ballot_position": 9,
+    "official_name": "Политическая партия КОММУНИСТИЧЕСКАЯ ПАРТИЯ КОММУНИСТЫ РОССИИ",
+    "protocol_line": 21,
+    "source_url": "http://apps.cikrf.ru/service/ik-inp-service-pbcopy/reports/242?commissionClassifierId=f0130cef-663a-4c57-b8ff-17054f8fa34e&protocolNum=2"
+  },
+  {
+    "ballot_position": 10,
+    "official_name": "Политическая партия \"НОВЫЕ ЛЮДИ\"",
+    "protocol_line": 22,
+    "source_url": "http://apps.cikrf.ru/service/ik-inp-service-pbcopy/reports/242?commissionClassifierId=f0130cef-663a-4c57-b8ff-17054f8fa34e&protocolNum=2"
+  }
+]

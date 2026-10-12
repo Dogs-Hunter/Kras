@@ -1,0 +1,87 @@
+{
+  "phase": 0,
+  "assessed_at": "2026-10-10T04:05:00+03:00",
+  "status_vocabulary": ["Confirmed", "Partial", "Unverified", "Unavailable"],
+  "target_store": {
+    "chain": "Перекрёсток",
+    "name": "Щука",
+    "address": "г. Москва, ул. Щукинская, 42",
+    "perekrestok_sap_id": "B153",
+    "perekrestok_identity_status": "Confirmed",
+    "kuper_store_id": null,
+    "kuper_store_id_status": "Unverified",
+    "evidence": "https://files.perekrestok.ru/static/files/e3/fc/93ca730f2a87b38e30e258104e5a.pdf, page 2 / extracted line 36"
+  },
+  "capabilities": [
+    {
+      "id": "specific_store_in_kuper",
+      "status": "Unverified",
+      "basis": "Страница самовывоза Купера в браузере остановилась на антибот-проверке до показа списка магазинов; прямой GET вернул 403."
+    },
+    {
+      "id": "pickup_selection_for_target_store",
+      "status": "Unverified",
+      "basis": "Конкретный филиал нельзя было выбрать без прохождения запрещённой для автоматизации проверки."
+    },
+    {
+      "id": "kuper_store_identifier",
+      "status": "Unverified",
+      "basis": "B153 подтверждён только как САП-код Перекрёстка; параметр/идентификатор Купера не получен."
+    },
+    {
+      "id": "store_price_binding",
+      "status": "Unverified",
+      "basis": "Публично индексируемые страницы не раскрывают выбранный филиал; cookie/параметр магазина не установлен."
+    },
+    {
+      "id": "catalog_without_authentication",
+      "status": "Partial",
+      "basis": "Индексируемый HTML содержит товары и цены без видимой авторизации, но повторяемый прямой доступ блокируется 403/challenge и филиал неизвестен."
+    },
+    {
+      "id": "real_prices",
+      "status": "Partial",
+      "basis": "Зафиксированы 28 опубликованных цен/позиций из публичного индекса; ни одна не считается ценой B153."
+    },
+    {
+      "id": "mass_volume_piece_count",
+      "status": "Confirmed",
+      "basis": "В опубликованных карточках/листингах присутствуют 18 г, 800 г, 750 мл, 1 л, 3 шт, 12 шт; Rust-тесты нормализации пройдены."
+    },
+    {
+      "id": "stable_product_identifiers",
+      "status": "Partial",
+      "basis": "Публичные постоянные URL Купера и Перекрёстка содержат числовые артикулы для части товаров; стабильность во времени и соответствие B153 не проверены."
+    },
+    {
+      "id": "regular_and_discount_prices",
+      "status": "Confirmed",
+      "basis": "Индексируемые листинги явно различают «Цена без скидки» и «Цена со скидкой»; условия карты лояльности не установлены."
+    },
+    {
+      "id": "availability",
+      "status": "Partial",
+      "basis": "Перекрёсток публикует «В наличии много», но это не доказано для B153; Купер для целевой точки не проверен."
+    },
+    {
+      "id": "condoms",
+      "status": "Partial",
+      "basis": "Категория, бренды, цены, упаковки и некоторые артикулы подтверждены публичными страницами; наличие и цена в B153/Купере не подтверждены."
+    },
+    {
+      "id": "alcohol",
+      "status": "Partial",
+      "basis": "Ссылка Купера актуальна в публичном индексе и показывает алкоголь, цены и объёмы; филиал B153 и повторяемый автоматический доступ не подтверждены."
+    },
+    {
+      "id": "weekly_automatic_collection_from_kuper",
+      "status": "Unavailable",
+      "basis": "На 2026-10-10 прямой низкочастотный GET стабильно получает 403, а браузер — антибот-проверку. Обход не выполнялся."
+    },
+    {
+      "id": "weekly_manual_import",
+      "status": "Confirmed",
+      "basis": "Rust-прототип валидирует локальный JSON, нормализует Decimal-цену и выдаёт структурированный JSON с временем и признаком привязки."
+    }
+  ]
+}

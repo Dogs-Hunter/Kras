@@ -1,0 +1,10 @@
+{
+  "external_uik_sample_size": 54,
+  "external_uik_http_200": 54,
+  "external_uik_numeric_22_match": 54,
+  "external_uik_same_report_id": 54,
+  "unavailable_live_sample_size": 16,
+  "unavailable_live_404": 16,
+  "incomplete_tiks_checked": 101,
+  "incomplete_tik_official_aggregates": 101
+}

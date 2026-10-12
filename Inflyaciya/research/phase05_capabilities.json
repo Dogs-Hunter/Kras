@@ -1,0 +1,104 @@
+{
+  "phase": "0.5",
+  "assessed_at": "2026-10-10T12:19:00+03:00",
+  "decision": {
+    "code": "C",
+    "label": "Автоматический сбор не подтверждён",
+    "reason": "Ни один проверенный автоматический способ не дал цены с однозначной привязкой к B153."
+  },
+  "target_store": {
+    "chain": "Перекрёсток",
+    "store_id": "B153",
+    "store_id_namespace": "Perekrestok SAP",
+    "address": "Москва, Щукинская улица, 42, ТРК «Щука»",
+    "identity_status": "Confirmed"
+  },
+  "counts": {
+    "confirmed_b153_prices": 0,
+    "unconfirmed_schema_samples": 5,
+    "confirmed_condom_prices": 0,
+    "confirmed_alcohol_prices": 0
+  },
+  "methods": [
+    {
+      "id": "perekrestok_direct_http",
+      "status": "Unavailable",
+      "store_binding": "Unverified",
+      "reproducibility": "Blocked",
+      "weekly_use": "No",
+      "basis": "Каталог и /shops отвечают HTTP 200 лишь JavaScript challenge-shell с servicepipe.tech; robots.txt и sitemap.xml вернули 403."
+    },
+    {
+      "id": "perekrestok_browser",
+      "status": "Unavailable",
+      "store_binding": "Unverified",
+      "reproducibility": "Blocked",
+      "weekly_use": "No",
+      "basis": "Браузер сразу показал антибот-проверку до интерфейса поиска магазина; CAPTCHA не проходилась."
+    },
+    {
+      "id": "official_store_pages",
+      "status": "Partial",
+      "store_binding": "Supported in principle, not found for B153",
+      "reproducibility": "Unverified",
+      "weekly_use": "Not for B153",
+      "basis": "Индексируемые /shops/shop/{numeric_id} связывают адрес магазина с блоком «Акции в этом магазине», но числовая страница Щукинской, 42 не найдена."
+    },
+    {
+      "id": "public_search_index",
+      "status": "Partial",
+      "store_binding": "Wrong or absent",
+      "reproducibility": "Low",
+      "weekly_use": "No",
+      "basis": "Доступны ID, упаковки, цены и наличие, но контекст показывает Петербургскую улицу, 9; один товар имел разные цены в листинге и карточке."
+    },
+    {
+      "id": "official_booklets_current",
+      "status": "Unavailable",
+      "store_binding": "Unverified",
+      "reproducibility": "No current Moscow booklet found",
+      "weekly_use": "No",
+      "basis": "Официальная /booklets сообщает обновление раз в месяц и до 1000 товаров, но на проверенном контексте выводит «Каталоги не найдены»."
+    },
+    {
+      "id": "official_historical_promo_pdf",
+      "status": "Partial",
+      "store_binding": "Sometimes explicit participant list",
+      "reproducibility": "Document dependent",
+      "weekly_use": "Only when a current document explicitly covers B153",
+      "basis": "PDF могут содержать сроки, цены и список магазинов; исторический пример прямо предупреждает, что товар представлен не во всех супермаркетах и документ не является публичной офертой."
+    },
+    {
+      "id": "documented_public_api_or_export",
+      "status": "Unverified",
+      "store_binding": "Unknown",
+      "reproducibility": "Unknown",
+      "weekly_use": "No",
+      "basis": "На официальных страницах и в официальном поиске документация открытого API/структурированной выгрузки цен не найдена. Отсутствие результата поиска не доказывает отсутствие частных интерфейсов."
+    },
+    {
+      "id": "manual_receipt_or_observation_import",
+      "status": "Confirmed",
+      "store_binding": "Can be confirmed by address/store code evidence",
+      "reproducibility": "Operator-assisted",
+      "weekly_use": "Yes",
+      "basis": "Расширенный Rust-валидатор требует B153 и Щукинскую, 42 для confirmed-секции, проверяет цены, единицы, нормализацию, даты и evidence."
+    }
+  ],
+  "category_coverage_without_b153_binding": [
+    "молочные продукты",
+    "мясо и птица",
+    "рыба и морепродукты",
+    "овощи",
+    "фрукты",
+    "крупы и макаронные изделия",
+    "хлеб и выпечка",
+    "масла и специи",
+    "напитки",
+    "консервация",
+    "кондитерские изделия",
+    "готовая еда",
+    "презервативы",
+    "алкогольные категории"
+  ]
+}

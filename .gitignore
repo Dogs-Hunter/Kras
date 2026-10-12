@@ -1,0 +1,63 @@
+# Rust build products
+**/target/
+
+# Editors and operating-system metadata
+**/.idea/
+**/.vscode/
+*.suo
+*.user
+*.code-workspace
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files and logs
+*.tmp
+*.temp
+*.part
+*.bak
+*.swp
+*~
+*.log
+*.profraw
+**/coverage/
+
+# Local credentials and private keys
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.*
+
+# SQLite transient sidecars (the selected Inflyaciya database itself is tracked)
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite-journal
+*.sqlite3-wal
+*.sqlite3-shm
+*.sqlite3-journal
+
+# Aeroporty: downloaded source snapshots and intermediate phase products stay local.
+# The verified final release is explicitly kept.
+/Aeroporty/cache/
+/Aeroporty/tmp/
+/Aeroporty/data/enrichment.json
+/Aeroporty/output/*
+!/Aeroporty/output/.gitkeep
+!/Aeroporty/output/release/
+!/Aeroporty/output/release/**
+
+# Vybory: network cache and working/audit databases are reproducible local state.
+# The complete output/2026 dataset and non-archived audit reports remain tracked.
+/Vybory/cache/*
+!/Vybory/cache/.gitkeep
+/Vybory/database/*.sqlite
+/Vybory/database/*.sqlite-*
+/Vybory/audit/phase-audit1/*.sqlite
+/Vybory/audit/phase-final/archive/
+
+# Inflyaciya: keep the current dataset database, omit transient locks and old backups.
+/Inflyaciya/data/weekly-collection.lock
+/Inflyaciya/data/backups/
+/Inflyaciya/logs/

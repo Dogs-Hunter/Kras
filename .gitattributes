@@ -1,0 +1,23 @@
+# Keep source and documentation line endings deterministic across platforms.
+*.rs text eol=lf
+*.toml text eol=lf
+*.md text eol=lf
+*.sql text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.xml text eol=lf
+Cargo.lock text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# Release manifests contain byte-level SHA-256 values. Never rewrite these files.
+Aeroporty/output/release/** -text
+Vybory/output/2026/** -text
+Inflyaciya/output/** -text
+
+# Databases are binary artifacts, including the selected Inflyaciya dataset.
+*.sqlite binary
+*.sqlite3 binary

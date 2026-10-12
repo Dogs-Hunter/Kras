@@ -1,0 +1,145 @@
+{
+  "release_date": "2026-10-12",
+  "passed": true,
+  "airports": 10573,
+  "physical_runways": 14259,
+  "mandatory_values_checked": 159080,
+  "independently_verified_values": 18079,
+  "unique_icao": true,
+  "unique_id": true,
+  "export_structural_equivalence": true,
+  "unresolved_serious_conflicts": 0,
+  "resolved_conflicts_checked": 8,
+  "resolved_conflicts_with_history_preserved": 8,
+  "checks": [
+    {
+      "name": "strict airport validation",
+      "passed": true,
+      "checked": 10573,
+      "failures": 0
+    },
+    {
+      "name": "unique ICAO",
+      "passed": true,
+      "checked": 10573,
+      "failures": 0
+    },
+    {
+      "name": "unique airport ID",
+      "passed": true,
+      "checked": 10573,
+      "failures": 0
+    },
+    {
+      "name": "geographic ranges",
+      "passed": true,
+      "checked": 10573,
+      "failures": 0
+    },
+    {
+      "name": "supported airport types",
+      "passed": true,
+      "checked": 10573,
+      "failures": 0
+    },
+    {
+      "name": "non-empty country",
+      "passed": true,
+      "checked": 10573,
+      "failures": 0
+    },
+    {
+      "name": "measured elevation evidence",
+      "passed": true,
+      "checked": 10573,
+      "failures": 0
+    },
+    {
+      "name": "IANA timezone",
+      "passed": true,
+      "checked": 10573,
+      "failures": 0
+    },
+    {
+      "name": "documented open/close semantics",
+      "passed": true,
+      "checked": 10573,
+      "failures": 0
+    },
+    {
+      "name": "physical runway count",
+      "passed": true,
+      "checked": 10573,
+      "failures": 0
+    },
+    {
+      "name": "positive runway lengths",
+      "passed": true,
+      "checked": 14259,
+      "failures": 0
+    },
+    {
+      "name": "known land surfaces",
+      "passed": true,
+      "checked": 14259,
+      "failures": 0
+    },
+    {
+      "name": "no helipad/waterway in strict export",
+      "passed": true,
+      "checked": 14259,
+      "failures": 0
+    },
+    {
+      "name": "no duplicate physical runway",
+      "passed": true,
+      "checked": 14259,
+      "failures": 0
+    },
+    {
+      "name": "mandatory evidence present",
+      "passed": true,
+      "checked": 159080,
+      "failures": 0
+    },
+    {
+      "name": "no unresolved mandatory evidence",
+      "passed": true,
+      "checked": 159080,
+      "failures": 0
+    },
+    {
+      "name": "provenance retained",
+      "passed": true,
+      "checked": 24832,
+      "failures": 0
+    },
+    {
+      "name": "eight resolved conflicts still match",
+      "passed": true,
+      "checked": 8,
+      "failures": 0
+    },
+    {
+      "name": "historical conflict evidence retained",
+      "passed": true,
+      "checked": 8,
+      "failures": 0
+    },
+    {
+      "name": "report statistics reconciliation",
+      "passed": true,
+      "checked": 3,
+      "failures": 0
+    }
+  ],
+  "limitations": [
+    "FAA/NASR применяется только к объектам выпуска и регионального охвата FAA; остальной мировой набор по-прежнему основан на OurAirports.",
+    "FAA surface и OurAirports surface при разных классификациях/датах помечаются NotComparable, а не автоматически перезаписываются.",
+    "status=open означает: объект известного типа не помечен OurAirports как постоянно закрытый на дату источника; это не доступность для рейса сейчас, не NOTAM и не наличие регулярных рейсов.",
+    "Строгий экспорт содержит только классифицированные наземные ВПП; waterways, helipads, unknown и повреждённые строки находятся в quarantine.csv.",
+    "Метрики evidence относятся к обязательным значениям строгого датасета; отклонённые записи и карантин считаются отдельно.",
+    "ANAC status=open означает наличие действующей записи в актуальном реестре, а не текущую эксплуатационную доступность или отсутствие NOTAM.",
+    "Устаревшие выгрузки ANAC Características Gerais (2023) и Pistas (2024) сохранены и проверены, но не используются для восстановления актуальных обязательных значений."
+  ]
+}

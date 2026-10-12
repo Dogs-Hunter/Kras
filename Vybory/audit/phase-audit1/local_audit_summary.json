@@ -1,0 +1,25 @@
+{
+  "sqlite_integrity": "ok",
+  "foreign_key_violations": 0,
+  "journal_mode": "wal",
+  "csv_rows": 89132,
+  "csv_duplicate_uik_ids": 0,
+  "protocols": 89132,
+  "protocol_versions": 89132,
+  "official_repeated_protocols": 176,
+  "uiks_with_multiple_saved_versions": 0,
+  "repeated_without_prior_saved_version": 176,
+  "empty_addresses": 91399,
+  "empty_sign_datetime": 89132,
+  "nonempty_published_at": 89132,
+  "uncategorized_geography": 333,
+  "exact_cache_db_csv_match": 89132,
+  "conflicts_total": 0,
+  "source_rows_not_in_csv": 0,
+  "incomplete_tik_rows": 101,
+  "unavailable_protocol_rows": 2267,
+  "uncategorized_tik_names": {
+    "Город Байконур (Республика Казахстан)": 7,
+    "Территория за пределами РФ": 326
+  }
+}

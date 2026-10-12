@@ -1,0 +1,272 @@
+{
+  "generated_at": "2026-10-10T15:20:26.095527700+00:00",
+  "endpoint": "https://mcp.vkusvill.ru/mcp",
+  "protocol_version": "2025-03-26",
+  "access_mode": "Anonymous",
+  "price_context": "Generic",
+  "checked_products": 10,
+  "stable_identity": 10,
+  "stable_price": 10,
+  "records": [
+    {
+      "product_id": 101575,
+      "name": "Тартин зерновой, 300г. Пекарня",
+      "query": "хлеб",
+      "search_seen": true,
+      "first_details_at": "2026-10-10T15:20:06.996409+00:00",
+      "second_details_at": "2026-10-10T15:20:07.492810700+00:00",
+      "same_id": true,
+      "same_price": true,
+      "same_package": true,
+      "same_category": true,
+      "personalized": false,
+      "price_context": "Generic",
+      "first_price": {
+        "currency": "RUB",
+        "current": 157,
+        "discount_percent": null,
+        "old": null
+      },
+      "second_price": {
+        "currency": "RUB",
+        "current": 157,
+        "discount_percent": null,
+        "old": null
+      }
+    },
+    {
+      "product_id": 101868,
+      "name": "Смесь овощная \"Классический гарнир\", зам.",
+      "query": "овощи замороженные",
+      "search_seen": true,
+      "first_details_at": "2026-10-10T15:20:09.335761+00:00",
+      "second_details_at": "2026-10-10T15:20:09.844489500+00:00",
+      "same_id": true,
+      "same_price": true,
+      "same_package": true,
+      "same_category": true,
+      "personalized": false,
+      "price_context": "Generic",
+      "first_price": {
+        "currency": "RUB",
+        "current": 140,
+        "discount_percent": null,
+        "old": null
+      },
+      "second_price": {
+        "currency": "RUB",
+        "current": 140,
+        "discount_percent": null,
+        "old": null
+      }
+    },
+    {
+      "product_id": 102608,
+      "name": "Шоколад горький 85%, 90 г",
+      "query": "шоколад",
+      "search_seen": true,
+      "first_details_at": "2026-10-10T15:20:11.591542+00:00",
+      "second_details_at": "2026-10-10T15:20:12.180495300+00:00",
+      "same_id": true,
+      "same_price": true,
+      "same_package": true,
+      "same_category": true,
+      "personalized": false,
+      "price_context": "Generic",
+      "first_price": {
+        "currency": "RUB",
+        "current": 322,
+        "discount_percent": null,
+        "old": null
+      },
+      "second_price": {
+        "currency": "RUB",
+        "current": 322,
+        "discount_percent": null,
+        "old": null
+      }
+    },
+    {
+      "product_id": 103071,
+      "name": "Соль пищевая каменная, 1 кг",
+      "query": "соль",
+      "search_seen": true,
+      "first_details_at": "2026-10-10T15:20:13.537096700+00:00",
+      "second_details_at": "2026-10-10T15:20:14.106583800+00:00",
+      "same_id": true,
+      "same_price": true,
+      "same_package": true,
+      "same_category": true,
+      "personalized": false,
+      "price_context": "Generic",
+      "first_price": {
+        "currency": "RUB",
+        "current": 48,
+        "discount_percent": null,
+        "old": null
+      },
+      "second_price": {
+        "currency": "RUB",
+        "current": 48,
+        "discount_percent": null,
+        "old": null
+      }
+    },
+    {
+      "product_id": 104922,
+      "name": "Хлопья Nordic Kids овсяные 400 г",
+      "query": "овсяные хлопья",
+      "search_seen": true,
+      "first_details_at": "2026-10-10T15:20:15.290603400+00:00",
+      "second_details_at": "2026-10-10T15:20:15.939992600+00:00",
+      "same_id": true,
+      "same_price": true,
+      "same_package": true,
+      "same_category": true,
+      "personalized": false,
+      "price_context": "Generic",
+      "first_price": {
+        "currency": "RUB",
+        "current": 251,
+        "discount_percent": 19,
+        "old": 310
+      },
+      "second_price": {
+        "currency": "RUB",
+        "current": 251,
+        "discount_percent": 19,
+        "old": 310
+      }
+    },
+    {
+      "product_id": 106492,
+      "name": "Треска филе кусок без кожи судовая зам., 600 г",
+      "query": "треска",
+      "search_seen": true,
+      "first_details_at": "2026-10-10T15:20:17.026570+00:00",
+      "second_details_at": "2026-10-10T15:20:17.529327300+00:00",
+      "same_id": true,
+      "same_price": true,
+      "same_package": true,
+      "same_category": true,
+      "personalized": false,
+      "price_context": "Generic",
+      "first_price": {
+        "currency": "RUB",
+        "current": 1400,
+        "discount_percent": null,
+        "old": null
+      },
+      "second_price": {
+        "currency": "RUB",
+        "current": 1400,
+        "discount_percent": null,
+        "old": null
+      }
+    },
+    {
+      "product_id": 1066,
+      "name": "Филе грудки индейки",
+      "query": "индейка",
+      "search_seen": true,
+      "first_details_at": "2026-10-10T15:20:19.366581500+00:00",
+      "second_details_at": "2026-10-10T15:20:19.973892300+00:00",
+      "same_id": true,
+      "same_price": true,
+      "same_package": true,
+      "same_category": true,
+      "personalized": false,
+      "price_context": "Generic",
+      "first_price": {
+        "currency": "RUB",
+        "current": 924,
+        "discount_percent": null,
+        "old": null
+      },
+      "second_price": {
+        "currency": "RUB",
+        "current": 924,
+        "discount_percent": null,
+        "old": null
+      }
+    },
+    {
+      "product_id": 1067,
+      "name": "Филе бедра индейки",
+      "query": "индейка",
+      "search_seen": true,
+      "first_details_at": "2026-10-10T15:20:21.207139900+00:00",
+      "second_details_at": "2026-10-10T15:20:21.774248600+00:00",
+      "same_id": true,
+      "same_price": true,
+      "same_package": true,
+      "same_category": true,
+      "personalized": false,
+      "price_context": "Generic",
+      "first_price": {
+        "currency": "RUB",
+        "current": 907,
+        "discount_percent": null,
+        "old": null
+      },
+      "second_price": {
+        "currency": "RUB",
+        "current": 907,
+        "discount_percent": null,
+        "old": null
+      }
+    },
+    {
+      "product_id": 108750,
+      "name": "Огурчики Кисловодские, 250 г",
+      "query": "огурцы",
+      "search_seen": true,
+      "first_details_at": "2026-10-10T15:20:22.863459400+00:00",
+      "second_details_at": "2026-10-10T15:20:23.453438600+00:00",
+      "same_id": true,
+      "same_price": true,
+      "same_package": true,
+      "same_category": true,
+      "personalized": false,
+      "price_context": "Generic",
+      "first_price": {
+        "currency": "RUB",
+        "current": 198,
+        "discount_percent": null,
+        "old": null
+      },
+      "second_price": {
+        "currency": "RUB",
+        "current": 198,
+        "discount_percent": null,
+        "old": null
+      }
+    },
+    {
+      "product_id": 108876,
+      "name": "Сыр с белой плесенью \"Камамбер\" безлактозный, 125 г",
+      "query": "сыр",
+      "search_seen": true,
+      "first_details_at": "2026-10-10T15:20:25.077069600+00:00",
+      "second_details_at": "2026-10-10T15:20:25.644825800+00:00",
+      "same_id": true,
+      "same_price": true,
+      "same_package": true,
+      "same_category": true,
+      "personalized": false,
+      "price_context": "Generic",
+      "first_price": {
+        "currency": "RUB",
+        "current": 310,
+        "discount_percent": null,
+        "old": null
+      },
+      "second_price": {
+        "currency": "RUB",
+        "current": 310,
+        "discount_percent": null,
+        "old": null
+      }
+    }
+  ]
+}

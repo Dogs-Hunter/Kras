@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-10-10T16:07:58.526116400+00:00",
+  "price_context": "Generic",
+  "products": 204,
+  "categories": 67,
+  "groups": 42,
+  "normalized_share": "1",
+  "basket_items": 42,
+  "basket_total_rub": "9932",
+  "basket_deviation_rub": "-0.50",
+  "observations": 661,
+  "successful_observations": 661,
+  "unsuccessful_issues": 3,
+  "products_with_price_change": 0
+}

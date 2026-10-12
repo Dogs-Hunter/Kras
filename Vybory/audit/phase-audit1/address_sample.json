@@ -1,0 +1,98 @@
+[
+  {
+    "uik_id": "f289c43f-5c0e-4a0e-b3fa-25c700fbf374",
+    "uik_number": "1609",
+    "commission_org_id": 587862229,
+    "url": "http://apps.cikrf.ru/service/ik-inp-service-pbcopy/commissionOrg/587862229",
+    "http_status": 400,
+    "top_level_keys": [
+      "_embedded",
+      "_links",
+      "message"
+    ],
+    "name": null,
+    "address": null,
+    "voting_room": null,
+    "raw": {
+      "message": "Bad Request",
+      "_links": {
+        "self": {
+          "href": "/commissionOrg/587862229",
+          "templated": false
+        }
+      },
+      "_embedded": {
+        "errors": [
+          {
+            "message": "Failed to convert argument [externalId] for value [587862229] due to: Invalid UUID string: 587862229",
+            "path": "/externalId"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "uik_id": "883a16d9-623e-49d9-94a6-05942b7d6bb5",
+    "uik_number": "1101",
+    "commission_org_id": 588608722,
+    "url": "http://apps.cikrf.ru/service/ik-inp-service-pbcopy/commissionOrg/588608722",
+    "http_status": 400,
+    "top_level_keys": [
+      "_embedded",
+      "_links",
+      "message"
+    ],
+    "name": null,
+    "address": null,
+    "voting_room": null,
+    "raw": {
+      "message": "Bad Request",
+      "_links": {
+        "self": {
+          "href": "/commissionOrg/588608722",
+          "templated": false
+        }
+      },
+      "_embedded": {
+        "errors": [
+          {
+            "message": "Failed to convert argument [externalId] for value [588608722] due to: Invalid UUID string: 588608722",
+            "path": "/externalId"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "uik_id": "0efbf3d2-e0ab-4217-a9c8-8038a74f1777",
+    "uik_number": "442",
+    "commission_org_id": 587823570,
+    "url": "http://apps.cikrf.ru/service/ik-inp-service-pbcopy/commissionOrg/587823570",
+    "http_status": 400,
+    "top_level_keys": [
+      "_embedded",
+      "_links",
+      "message"
+    ],
+    "name": null,
+    "address": null,
+    "voting_room": null,
+    "raw": {
+      "message": "Bad Request",
+      "_links": {
+        "self": {
+          "href": "/commissionOrg/587823570",
+          "templated": false
+        }
+      },
+      "_embedded": {
+        "errors": [
+          {
+            "message": "Failed to convert argument [externalId] for value [587823570] due to: Invalid UUID string: 587823570",
+            "path": "/externalId"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "sqlite_integrity": "ok",
+  "foreign_key_violations": 0,
+  "db_strict_valid_protocols": 89132,
+  "db_duplicate_uiks": 0,
+  "db_protocols_without_22_numeric_lines": 0,
+  "old_csv_rows": 89132,
+  "candidate_csv_rows": 89132,
+  "same_uik_set": true,
+  "numeric_22_mismatches_old_vs_candidate": 0,
+  "candidate_published_at_nonempty": 89132,
+  "candidate_protocol_date_nonempty": 0,
+  "aggregate_sources": 2839,
+  "aggregate_source_hash_errors": 0,
+  "availability_status_counts": [
+    [
+      "Unknown",
+      404,
+      2267
+    ]
+  ],
+  "category_counts": {
+    "baikonur": 7,
+    "foreign": 326,
+    "regular": 88348,
+    "special": 2718
+  },
+  "candidate_manifest_files": 2758,
+  "candidate_manifest_mismatches": [],
+  "original_all_uiks_unchanged": true,
+  "original_manifest_unchanged": true,
+  "original_report_unchanged": true
+}

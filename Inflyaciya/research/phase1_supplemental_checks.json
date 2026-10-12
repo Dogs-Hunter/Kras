@@ -1,0 +1,18 @@
+{
+  "checked_at": "2026-10-10T15:21:00+03:00",
+  "endpoint": "https://mcp.vkusvill.ru/mcp",
+  "access_mode": "Anonymous",
+  "price_context": "Generic",
+  "queries": [
+    {"query": "презервативы", "total": 0, "returned": 0},
+    {"query": "Contex", "total": 0, "returned": 0},
+    {"query": "Durex", "total": 0, "returned": 0},
+    {
+      "query": "алкоголь",
+      "total": 116,
+      "returned": 5,
+      "assessment": "Первые результаты — безалкогольные пиво/вино и текстовое совпадение (шоколад с ромом); алкогольный товар не подтверждён."
+    }
+  ],
+  "conclusion": "Анонимный Generic-контекст не подтвердил выдачу презервативов или алкогольных товаров; это наблюдение, а не доказательство полного отсутствия категорий."
+}

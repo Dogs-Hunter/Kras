@@ -1,0 +1,45 @@
+# Rust build output
+/target/
+
+# Local source snapshots and downloaded third-party material
+/cache/*
+!/cache/.gitkeep
+
+# Intermediate phase outputs; keep only the final submission release
+/output/*
+!/output/.gitkeep
+!/output/release/
+!/output/release/**
+
+# Temporary and atomic-write artifacts
+/tmp/
+*.part
+*.tmp
+*.bak
+*.swp
+*~
+
+# Local enrichment and secrets
+/data/enrichment.json
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.*
+
+# Editor and operating-system metadata
+/.idea/
+/.vscode/
+*.suo
+*.user
+*.code-workspace
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and local coverage/profiling output
+*.log
+/coverage/
+*.profraw
+

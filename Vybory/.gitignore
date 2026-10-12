@@ -1,0 +1,31 @@
+/target/
+
+# Re-downloadable HTTP material and local web assets
+/cache/*
+!/cache/.gitkeep
+
+# Working database; final reviewable exports live in output/2026/
+/database/*.sqlite
+/database/*.sqlite-shm
+/database/*.sqlite-wal
+/database/*.sqlite-journal
+
+# Historical Phase Audit/Final databases and duplicate archived exports
+/audit/phase-audit1/*.sqlite
+/audit/phase-final/archive/
+
+*.log
+*.tmp
+*.part
+
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+/.idea/
+/.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini

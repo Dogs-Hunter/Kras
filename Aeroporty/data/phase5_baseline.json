@@ -1,0 +1,26 @@
+{
+  "phase": 4,
+  "files": [
+    {"path":"output/candidate-phase4/airports.csv","sha256":"a90fb5818788582fb9f6317b959f1bd21ff85c4a14ce0577e54db44755db2555"},
+    {"path":"output/candidate-phase4/airports.json","sha256":"7a6ac7cd0332ed99e8d6a5e98d7a74f1aea8e6f2eb09f9bab1a49dc1cae000a9"},
+    {"path":"output/candidate-phase4/airports.toml","sha256":"37affa248fcdfcf43fd60d97b3dfd31c77bf78ebb6291e7de6439f4c8d5c24a6"},
+    {"path":"output/candidate-phase4/airports.yaml","sha256":"10750fb0b6e65af413b794598deffd297c807e23a028c99444b73d6641728fe4"},
+    {"path":"output/candidate-phase4/anac_conflicts.csv","sha256":"d36a34c54c6944a589abf78f2d3a85e082c99eb9d8dcf1d1a825a0a3f4001362"},
+    {"path":"output/candidate-phase4/anac_matches.csv","sha256":"1ec3e9acac450ecabb7e6bf4c4a6772f0b56c632692db2a486bf6259ffc94adf"},
+    {"path":"output/candidate-phase4/anac_unmatched.csv","sha256":"02ed2135fed99c4c58ec415e777fc97750d3f951551337689eb1045ff13b3b67"},
+    {"path":"output/candidate-phase4/evidence.json","sha256":"e2a1daa972ede2983af17b03ae44a99611d05f54e15bed8cec8695c4b4f31f25"},
+    {"path":"output/candidate-phase4/faa_candidate_assessment.csv","sha256":"25ec3a9c45924188eda799c3bb0ffd5aad79a9ece24f8041d6124db974a31a0a"},
+    {"path":"output/candidate-phase4/faa_conflicts.csv","sha256":"1bd57478fd405537cdc8c6763d51eee4400dc5400457ba9b92acf3e7baff7b2c"},
+    {"path":"output/candidate-phase4/faa_matches.csv","sha256":"93cda81fb8fccb498d18caad17fe6068b11d747194172746a4105662702587c7"},
+    {"path":"output/candidate-phase4/faa_recovered.csv","sha256":"910ec5bc2553ed144134e916b5024561d4e5f9e8de1e9cdbd844a0d24b2427e7"},
+    {"path":"output/candidate-phase4/faa_unmatched.csv","sha256":"89d17a9b04a31a3b3c40f8f518830e6b0572b75d5387c15ddb5d310df86644bd"},
+    {"path":"output/candidate-phase4/geographic_issues.csv","sha256":"fd5da0a756e824104c2425bf98427b86b237b7c61cea638749ecf323df31f79d"},
+    {"path":"output/candidate-phase4/new_airports.csv","sha256":"f5d388bbc48ce42f0e7941e394fde9b18b15820796b9c558561060d2079851c5"},
+    {"path":"output/candidate-phase4/quarantine.csv","sha256":"7eef09def1926a4187b29c80a31b417faef80e6bac404cc846579d160290a3ab"},
+    {"path":"output/candidate-phase4/recovered_attributes.csv","sha256":"2758adbe3eb7d53d4a8f11cf934357740af3f12e3917e7f0c90c960e549cb97a"},
+    {"path":"output/candidate-phase4/rejected.csv","sha256":"90109150796ffe9a925d8a430ba88477a545d7dff8ba458b47895b6353010158"},
+    {"path":"output/candidate-phase4/report.json","sha256":"df7c68e027898caa75a82d52f3e5a04cbff8a174e261086fac3ed53915592662"},
+    {"path":"output/candidate-phase4/restored_airports.csv","sha256":"27437d97ba5f572972e5739e7dd2fa26d44be739aa29abb56ae39bd93feb4bf5"},
+    {"path":"output/candidate-phase4/sources_and_licenses.csv","sha256":"7c549be7db85b771e3ba320735bf3205ddc8b81c01f7683a7f3d7cd81b370724"}
+  ]
+}

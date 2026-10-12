@@ -1,0 +1,48 @@
+{
+  "release_path": "C:\\Game\\Kras\\Vybory\\audit\\phase-final\\repro-check",
+  "reference_path": "C:\\Game\\Kras\\Vybory\\output\\2026",
+  "csv_columns": 44,
+  "csv_rows": 89132,
+  "unique_uiks": 89132,
+  "numeric_22_mismatches": 0,
+  "protocol_date_nonempty": 0,
+  "source_created_at_nonempty": 89132,
+  "manifest_files": 2759,
+  "manifest_errors": [],
+  "sqlite_integrity": "ok",
+  "foreign_key_violations": 0,
+  "database_counts": {
+    "discovered": 91399,
+    "strict_valid": 89132,
+    "duplicates": 0,
+    "bad_line_sets": 0,
+    "source_metadata": 89132,
+    "aggregate_sources": 2839,
+    "aggregate_source_documents": 2839,
+    "availability_unknown": 2267
+  },
+  "timestamp_parse_errors": 0,
+  "category_counts": {
+    "baikonur": [
+      7,
+      7,
+      0
+    ],
+    "foreign": [
+      326,
+      326,
+      0
+    ],
+    "regular": [
+      88348,
+      86081,
+      2267
+    ],
+    "special": [
+      2718,
+      2718,
+      0
+    ]
+  },
+  "archive": null
+}

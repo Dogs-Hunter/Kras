@@ -1,0 +1,1983 @@
+{
+  "generated_at": "2026-10-10T10:47:54.145804Z",
+  "source": "https://mcp.vkusvill.ru/mcp",
+  "protocol": "MCP Streamable HTTP (negotiated 2025-03-26)",
+  "binding": "Generic",
+  "binding_reason": "Anonymous response says personalized=false and does not include availability or a selected store/address.",
+  "observations": [
+    {
+      "authorization_mode": "Anonymous",
+      "availability": null,
+      "brand": null,
+      "category": [
+        {
+          "id": 50390,
+          "name": "Молоко, сливки, сгущёнка",
+          "slug": "moloko-slivki-sgushchyenka",
+          "url": "https://vkusvill.ru/goods/molochnye-produkty-yaytso/moloko-slivki-sgushchyenka/"
+        },
+        {
+          "id": 50388,
+          "name": "Молочные продукты, яйцо",
+          "slug": "molochnye-produkty-yaytso",
+          "url": "https://vkusvill.ru/goods/molochnye-produkty-yaytso/"
+        }
+      ],
+      "collected_at": "2026-10-10T10:47:41.247416200Z",
+      "id": 36296,
+      "name": "Молоко 2,5% в бутылке, 900&nbsp;мл",
+      "normalized_price": {
+        "unit": "RUB/l",
+        "value": "111.11"
+      },
+      "package": {
+        "amount": "900",
+        "basis": "product_name",
+        "normalized_quantity": "0.9",
+        "normalized_unit": "l",
+        "unit": "мл"
+      },
+      "personalized": false,
+      "price": {
+        "currency": "RUB",
+        "current": 100,
+        "discount_info": null,
+        "discount_percent": null,
+        "old": null
+      },
+      "query": "молоко",
+      "rating": {
+        "average": 4.9,
+        "count": 126027
+      },
+      "source": "https://mcp.vkusvill.ru/mcp",
+      "store_address": null,
+      "store_binding": "Generic",
+      "store_id": null,
+      "tool": "vkusvill_products_search",
+      "unit": "шт",
+      "url": "https://vkusvill.ru/goods/moloko-2-36296/",
+      "validation": {
+        "reason": "generic price has no geographic evidence",
+        "status": "CandidateObservation"
+      },
+      "weight": {
+        "unit": "кг",
+        "value": 0.9
+      },
+      "xml_id": 36296
+    },
+    {
+      "authorization_mode": "Anonymous",
+      "availability": null,
+      "brand": null,
+      "category": [
+        {
+          "id": 50390,
+          "name": "Молоко, сливки, сгущёнка",
+          "slug": "moloko-slivki-sgushchyenka",
+          "url": "https://vkusvill.ru/goods/molochnye-produkty-yaytso/moloko-slivki-sgushchyenka/"
+        },
+        {
+          "id": 50388,
+          "name": "Молочные продукты, яйцо",
+          "slug": "molochnye-produkty-yaytso",
+          "url": "https://vkusvill.ru/goods/molochnye-produkty-yaytso/"
+        }
+      ],
+      "collected_at": "2026-10-10T10:47:41.247416200Z",
+      "id": 173,
+      "name": "Молоко 3,2%, 1&nbsp;л",
+      "normalized_price": {
+        "unit": "RUB/l",
+        "value": "93"
+      },
+      "package": {
+        "amount": "1",
+        "basis": "product_name",
+        "normalized_quantity": "1",
+        "normalized_unit": "l",
+        "unit": "л"
+      },
+      "personalized": false,
+      "price": {
+        "currency": "RUB",
+        "current": 93,
+        "discount_info": null,
+        "discount_percent": null,
+        "old": null
+      },
+      "query": "молоко",
+      "rating": {
+        "average": 5,
+        "count": 160331
+      },
+      "source": "https://mcp.vkusvill.ru/mcp",
+      "store_address": null,
+      "store_binding": "Generic",
+      "store_id": null,
+      "tool": "vkusvill_products_search",
+      "unit": "шт",
+      "url": "https://vkusvill.ru/goods/moloko-3-173/",
+      "validation": {
+        "reason": "generic price has no geographic evidence",
+        "status": "CandidateObservation"
+      },
+      "weight": {
+        "unit": "кг",
+        "value": 1
+      },
+      "xml_id": 173
+    },
+    {
+      "authorization_mode": "Anonymous",
+      "availability": null,
+      "brand": null,
+      "category": [
+        {
+          "id": 50390,
+          "name": "Молоко, сливки, сгущёнка",
+          "slug": "moloko-slivki-sgushchyenka",
+          "url": "https://vkusvill.ru/goods/molochnye-produkty-yaytso/moloko-slivki-sgushchyenka/"
+        },
+        {
+          "id": 50388,
+          "name": "Молочные продукты, яйцо",
+          "slug": "molochnye-produkty-yaytso",
+          "url": "https://vkusvill.ru/goods/molochnye-produkty-yaytso/"
+        }
+      ],
+      "collected_at": "2026-10-10T10:47:41.247416200Z",
+      "id": 17736,
+      "name": "Молоко цельное в бутылке, 900&nbsp;мл",
+      "normalized_price": {
+        "unit": "RUB/l",
+        "value": "118.89"
+      },
+      "package": {
+        "amount": "900",
+        "basis": "product_name",
+        "normalized_quantity": "0.9",
+        "normalized_unit": "l",
+        "unit": "мл"
+      },
+      "personalized": false,
+      "price": {
+        "currency": "RUB",
+        "current": 107,
+        "discount_info": null,
+        "discount_percent": null,
+        "old": null
+      },
+      "query": "молоко",
+      "rating": {
+        "average": 4.9,
+        "count": 125397
+      },
+      "source": "https://mcp.vkusvill.ru/mcp",
+      "store_address": null,
+      "store_binding": "Generic",
+      "store_id": null,
+      "tool": "vkusvill_products_search",
+      "unit": "шт",
+      "url": "https://vkusvill.ru/goods/moloko-tselnoe-v-butylke-17736/",
+      "validation": {
+        "reason": "generic price has no geographic evidence",
+        "status": "CandidateObservation"
+      },
+      "weight": {
+        "unit": "кг",
+        "value": 0.924
+      },
+      "xml_id": 17736
+    },
+    {
+      "authorization_mode": "Anonymous",
+      "availability": null,
+      "brand": null,
+      "category": [
+        {
+          "id": 50381,
+          "name": "Твердые и полутвердые",
+          "slug": "tverdye-i-polutverdye",
+          "url": "https://vkusvill.ru/goods/syry/tverdye-i-polutverdye/"
+        },
+        {
+          "id": 50380,
+          "name": "Сыры",
+          "slug": "syry",
+          "url": "https://vkusvill.ru/goods/syry/"
+        }
+      ],
+      "collected_at": "2026-10-10T10:47:41.247416200Z",
+      "id": 43778,
+      "name": "Сыр \"Российский\", 200&nbsp;г",
+      "normalized_price": {
+        "unit": "RUB/kg",
+        "value": "1185.0"
+      },
+      "package": {
+        "amount": "200",
+        "basis": "product_name",
+        "normalized_quantity": "0.2",
+        "normalized_unit": "kg",
+        "unit": "г"
+      },
+      "personalized": false,
+      "price": {
+        "currency": "RUB",
+        "current": 237,
+        "discount_info": null,
+        "discount_percent": null,
+        "old": null
+      },
+      "query": "сыр",
+      "rating": {
+        "average": 4.9,
+        "count": 22593
+      },
+      "source": "https://mcp.vkusvill.ru/mcp",
+      "store_address": null,
+      "store_binding": "Generic",
+      "store_id": null,
+      "tool": "vkusvill_products_search",
+      "unit": "шт",
+      "url": "https://vkusvill.ru/goods/syr-rossiyskiy-43778/",
+      "validation": {
+        "reason": "generic price has no geographic evidence",
+        "status": "CandidateObservation"
+      },
+      "weight": {
+        "unit": "кг",
+        "value": 0.2
+      },
+      "xml_id": 43778
+    },
+    {
+      "authorization_mode": "Anonymous",
+      "availability": null,
+      "brand": null,
+      "category": [
+        {
+          "id": 50381,
+          "name": "Твердые и полутвердые",
+          "slug": "tverdye-i-polutverdye",
+          "url": "https://vkusvill.ru/goods/syry/tverdye-i-polutverdye/"
+        },
+        {
+          "id": 50380,
+          "name": "Сыры",
+          "slug": "syry",
+          "url": "https://vkusvill.ru/goods/syry/"
+        }
+      ],
+      "collected_at": "2026-10-10T10:47:41.247416200Z",
+      "id": 43782,
+      "name": "Сыр \"Легкий\", 200&nbsp;г",
+      "normalized_price": {
+        "unit": "RUB/kg",
+        "value": "1315.0"
+      },
+      "package": {
+        "amount": "200",
+        "basis": "product_name",
+        "normalized_quantity": "0.2",
+        "normalized_unit": "kg",
+        "unit": "г"
+      },
+      "personalized": false,
+      "price": {
+        "currency": "RUB",
+        "current": 263,
+        "discount_info": null,
+        "discount_percent": null,
+        "old": null
+      },
+      "query": "сыр",
+      "rating": {
+        "average": 4.9,
+        "count": 13859
+      },
+      "source": "https://mcp.vkusvill.ru/mcp",
+      "store_address": null,
+      "store_binding": "Generic",
+      "store_id": null,
+      "tool": "vkusvill_products_search",
+      "unit": "шт",
+      "url": "https://vkusvill.ru/goods/syr-legkiy-43782/",
+      "validation": {
+        "reason": "generic price has no geographic evidence",
+        "status": "CandidateObservation"
+      },
+      "weight": {
+        "unit": "кг",
+        "value": 0.2
+      },
+      "xml_id": 43782
+    },
+    {
+      "authorization_mode": "Anonymous",
+      "availability": null,
+      "brand": null,
+      "category": [
+        {
+          "id": 50381,
+          "name": "Твердые и полутвердые",
+          "slug": "tverdye-i-polutverdye",
+          "url": "https://vkusvill.ru/goods/syry/tverdye-i-polutverdye/"
+        },
+        {
+          "id": 50380,
+          "name": "Сыры",
+          "slug": "syry",
+          "url": "https://vkusvill.ru/goods/syry/"
+        }
+      ],
+      "collected_at": "2026-10-10T10:47:41.247416200Z",
+      "id": 88424,
+      "name": "Сыр \"Три сыра\" тертый, 100&nbsp;г",
+      "normalized_price": {
+        "unit": "RUB/kg",
+        "value": "1750"
+      },
+      "package": {
+        "amount": "100",
+        "basis": "product_name",
+        "normalized_quantity": "0.1",
+        "normalized_unit": "kg",
+        "unit": "г"
+      },
+      "personalized": false,
+      "price": {
+        "currency": "RUB",
+        "current": 175,
+        "discount_info": null,
+        "discount_percent": null,
+        "old": null
+      },
+      "query": "сыр",
+      "rating": {
+        "average": 4.9,
+        "count": 15573
+      },
+      "source": "https://mcp.vkusvill.ru/mcp",
+      "store_address": null,
+      "store_binding": "Generic",
+      "store_id": null,
+      "tool": "vkusvill_products_search",
+      "unit": "шт",
+      "url": "https://vkusvill.ru/goods/syr-tri-syra-tertyy-88424/",
+      "validation": {
+        "reason": "generic price has no geographic evidence",
+        "status": "CandidateObservation"
+      },
+      "weight": {
+        "unit": "кг",
+        "value": 0.1
+      },
+      "xml_id": 88424
+    },
+    {
+      "authorization_mode": "Anonymous",
+      "availability": null,
+      "brand": null,
+      "category": [
+        {
+          "id": 57031,
+          "name": "Крупы",
+          "slug": "krupy",
+          "url": "https://vkusvill.ru/goods/krupy-makarony-muka/krupy/"
+        },
+        {
+          "id": 57029,
+          "name": "Крупы, макароны, мука",
+          "slug": "krupy-makarony-muka",
+          "url": "https://vkusvill.ru/goods/krupy-makarony-muka/"
+        }
+      ],
+      "collected_at": "2026-10-10T10:47:41.247416200Z",
+      "id": 17699,
+      "name": "Крупа гречневая ядрица, 900&nbsp;г",
+      "normalized_price": {
+        "unit": "RUB/kg",
+        "value": "94.44"
+      },
+      "package": {
+        "amount": "900",
+        "basis": "product_name",
+        "normalized_quantity": "0.9",
+        "normalized_unit": "kg",
+        "unit": "г"
+      },
+      "personalized": false,
+      "price": {
+        "currency": "RUB",
+        "current": 85,
+        "discount_info": null,
+        "discount_percent": null,
+        "old": null
+      },
+      "query": "гречка",
+      "rating": {
+        "average": 5,
+        "count": 58494
+      },
+      "source": "https://mcp.vkusvill.ru/mcp",
+      "store_address": null,
+      "store_binding": "Generic",
+      "store_id": null,
+      "tool": "vkusvill_products_search",
+      "unit": "шт",
+      "url": "https://vkusvill.ru/goods/krupa-grechnevaya-yadritsa-17699/",
+      "validation": {
+        "reason": "generic price has no geographic evidence",
+        "status": "CandidateObservation"
+      },
+      "weight": {
+        "unit": "кг",
+        "value": 0.9
+      },
+      "xml_id": 17699
+    },
+    {
+      "authorization_mode": "Anonymous",
+      "availability": null,
+      "brand": null,
+      "category": [
+        {
+          "id": 51803,
+          "name": "Крупы",
+          "slug": "krupy",
+          "url": "https://vkusvill.ru/goods/osoboe-pitanie/produkty-bez-glyutena/produkty-bez-glyutena-vozmozhny-sledy/bakaleya-bez-glyutena/krupy/"
+        },
+        {
+          "id": 51801,
+          "name": "Бакалея без глютена",
+          "slug": "bakaleya-bez-glyutena",
+          "url": "https://vkusvill.ru/goods/osoboe-pitanie/produkty-bez-glyutena/produkty-bez-glyutena-vozmozhny-sledy/bakaleya-bez-glyutena/"
+        },
+        {
+          "id": 51785,
+          "name": "Продукты без глютена (возможны следы)",
+          "slug": "produkty-bez-glyutena-vozmozhny-sledy",
+          "url": "https://vkusvill.ru/goods/osoboe-pitanie/produkty-bez-glyutena/produkty-bez-glyutena-vozmozhny-sledy/"
+        },
+        {
+          "id": 51783,
+          "name": "Продукты без глютена",
+          "slug": "produkty-bez-glyutena",
+          "url": "https://vkusvill.ru/goods/osoboe-pitanie/produkty-bez-glyutena/"
+        },
+        {
+          "id": 51782,
+          "name": "Особое питание",
+          "slug": "osoboe-pitanie",
+          "url": "https://vkusvill.ru/goods/osoboe-pitanie/"
+        }
+      ],
+      "collected_at": "2026-10-10T10:47:41.247416200Z",
+      "id": 32680,
+      "name": "Крупа гречневая Мистраль Ядрица 900&nbsp;г",
+      "normalized_price": {
+        "unit": "RUB/kg",
+        "value": "132.22"
+      },
+      "package": {
+        "amount": "900",
+        "basis": "product_name",
+        "normalized_quantity": "0.9",
+        "normalized_unit": "kg",
+        "unit": "г"
+      },
+      "personalized": false,
+      "price": {
+        "currency": "RUB",
+        "current": 119,
+        "discount_info": "По карте лояльности по 31.10 только онлайн",
+        "discount_percent": 31,
+        "old": 173
+      },
+      "query": "гречка",
+      "rating": {
+        "average": 4.9,
+        "count": 10150
+      },
+      "source": "https://mcp.vkusvill.ru/mcp",
+      "store_address": null,
+      "store_binding": "Generic",
+      "store_id": null,
+      "tool": "vkusvill_products_search",
+      "unit": "шт",
+      "url": "https://vkusvill.ru/goods/krupa-grechnevaya-mistral-yadritsa-900-g-32680/",
+      "validation": {
+        "reason": "generic price has no geographic evidence",
+        "status": "CandidateObservation"
+      },
+      "weight": {
+        "unit": "кг",
+        "value": 0.9
+      },
+      "xml_id": 32680
+    },
+    {
+      "authorization_mode": "Anonymous",
+      "availability": null,
+      "brand": null,
+      "category": [
+        {
+          "id": 56587,
+          "name": "Крупы и бобовые",
+          "slug": "krupy-i-bobovye",
+          "url": "https://vkusvill.ru/goods/supermarket/bakaleya/krupy-i-bobovye/"
+        },
+        {
+          "id": 56582,
+          "name": "Бакалея",
+          "slug": "bakaleya",
+          "url": "https://vkusvill.ru/goods/supermarket/bakaleya/"
+        },
+        {
+          "id": 56396,
+          "name": "Супермаркет",
+          "slug": "supermarket",
+          "url": "https://vkusvill.ru/goods/supermarket/"
+        }
+      ],
+      "collected_at": "2026-10-10T10:47:41.247416200Z",
+      "id": 57680,
+      "name": "Крупа гречневая Агро-Альянс Экстра Элитная 900&nbsp;г",
+      "normalized_price": {
+        "unit": "RUB/kg",
+        "value": "155.56"
+      },
+      "package": {
+        "amount": "900",
+        "basis": "product_name",
+        "normalized_quantity": "0.9",
+        "normalized_unit": "kg",
+        "unit": "г"
+      },
+      "personalized": false,
+      "price": {
+        "currency": "RUB",
+        "current": 140,
+        "discount_info": "По карте лояльности по 31.10 только онлайн",
+        "discount_percent": 24,
+        "old": 184
+      },
+      "query": "гречка",
+      "rating": {
+        "average": 4.9,
+        "count": 3362
+      },
+      "source": "https://mcp.vkusvill.ru/mcp",
+      "store_address": null,
+      "store_binding": "Generic",
+      "store_id": null,
+      "tool": "vkusvill_products_search",
+      "unit": "шт",
+      "url": "https://vkusvill.ru/goods/krupa-grechnevaya-agro-alyans-ekstra-elitnaya-900-g-57680/",
+      "validation": {
+        "reason": "generic price has no geographic evidence",
+        "status": "CandidateObservation"
+      },
+      "weight": {
+        "unit": "кг",
+        "value": 0.9
+      },
+      "xml_id": 57680
+    },
+    {
+      "authorization_mode": "Anonymous",
+      "availability": null,
+      "brand": null,
+      "category": [
+        {
+          "id": 57030,
+          "name": "Макароны",
+          "slug": "makarony",
+          "url": "https://vkusvill.ru/goods/krupy-makarony-muka/makarony/"
+        },
+        {
+          "id": 57029,
+          "name": "Крупы, макароны, мука",
+          "slug": "krupy-makarony-muka",
+          "url": "https://vkusvill.ru/goods/krupy-makarony-muka/"
+        }
+      ],
+      "collected_at": "2026-10-10T10:47:41.247416200Z",
+      "id": 20268,
+      "name": "Макаронные изделия \"Пружина\", дурум",
+      "normalized_price": {
+        "unit": "RUB/kg",
+        "value": "211.11"
+      },
+      "package": {
+        "amount": "0.45",
+        "basis": "mcp_weight",
+        "normalized_quantity": "0.45",
+        "normalized_unit": "kg",
+        "unit": "кг"
+      },
+      "personalized": false,
+      "price": {
+        "currency": "RUB",
+        "current": 95,
+        "discount_info": null,
+        "discount_percent": null,
+        "old": null
+      },
+      "query": "макароны",
+      "rating": {
+        "average": 4.9,
+        "count": 19593
+      },
+      "source": "https://mcp.vkusvill.ru/mcp",
+      "store_address": null,
+      "store_binding": "Generic",
+      "store_id": null,
+      "tool": "vkusvill_products_search",
+      "unit": "шт",
+      "url": "https://vkusvill.ru/goods/makaronnye-izdeliya-pruzhina-20268/",
+      "validation": {
+        "reason": "generic price has no geographic evidence",
+        "status": "CandidateObservation"
+      },
+      "weight": {
+        "unit": "кг",
+        "value": 0.45
+      },
+      "xml_id": 20268
+    },
+    {
+      "authorization_mode": "Anonymous",
+      "availability": null,
+      "brand": null,
+      "category": [
+        {
+          "id": 57030,
+          "name": "Макароны",
+          "slug": "makarony",
+          "url": "https://vkusvill.ru/goods/krupy-makarony-muka/makarony/"
+        },
+        {
+          "id": 57029,
+          "name": "Крупы, макароны, мука",
+          "slug": "krupy-makarony-muka",
+          "url": "https://vkusvill.ru/goods/krupy-makarony-muka/"
+        }
+      ],
+      "collected_at": "2026-10-10T10:47:41.247416200Z",
+      "id": 15089,
+      "name": "Макароны перо рифленое",
+      "normalized_price": {
+        "unit": "RUB/kg",
+        "value": "200"
+      },
+      "package": {
+        "amount": "0.45",
+        "basis": "mcp_weight",
+        "normalized_quantity": "0.45",
+        "normalized_unit": "kg",
+        "unit": "кг"
+      },
+      "personalized": false,
+      "price": {
+        "currency": "RUB",
+        "current": 90,
+        "discount_info": null,
+        "discount_percent": null,
+        "old": null
+      },
+      "query": "макароны",
+      "rating": {
+        "average": 4.9,
+        "count": 21975
+      },
+      "source": "https://mcp.vkusvill.ru/mcp",
+      "store_address": null,
+      "store_binding": "Generic",
+      "store_id": null,
+      "tool": "vkusvill_products_search",
+      "unit": "шт",
+      "url": "https://vkusvill.ru/goods/makarony-pero-riflenoe-15089/",
+      "validation": {
+        "reason": "generic price has no geographic evidence",
+        "status": "CandidateObservation"
+      },
+      "weight": {
+        "unit": "кг",
+        "value": 0.45
+      },
+      "xml_id": 15089
+    },
+    {
+      "authorization_mode": "Anonymous",
+      "availability": null,
+      "brand": null,
+      "category": [
+        {
+          "id": 57030,
+          "name": "Макароны",
+          "slug": "makarony",
+          "url": "https://vkusvill.ru/goods/krupy-makarony-muka/makarony/"
+        },
+        {
+          "id": 57029,
+          "name": "Крупы, макароны, мука",
+          "slug": "krupy-makarony-muka",
+          "url": "https://vkusvill.ru/goods/krupy-makarony-muka/"
+        }
+      ],
+      "collected_at": "2026-10-10T10:47:41.247416200Z",
+      "id": 77393,
+      "name": "Макаронные изделия \"Рожки с гребешком\", Гальяни, 450&nbsp;г",
+      "normalized_price": {
+        "unit": "RUB/kg",
+        "value": "182.22"
+      },
+      "package": {
+        "amount": "450",
+        "basis": "product_name",
+        "normalized_quantity": "0.45",
+        "normalized_unit": "kg",
+        "unit": "г"
+      },
+      "personalized": false,
+      "price": {
+        "currency": "RUB",
+        "current": 82,
+        "discount_info": null,
+        "discount_percent": null,
+        "old": null
+      },
+      "query": "макароны",
+      "rating": {
+        "average": 4.9,
+        "count": 5704
+      },
+      "source": "https://mcp.vkusvill.ru/mcp",
+      "store_address": null,
+      "store_binding": "Generic",
+      "store_id": null,
+      "tool": "vkusvill_products_search",
+      "unit": "шт",
+      "url": "https://vkusvill.ru/goods/makaronnye-izdeliya-rozhki-s-grebeshkom-77393/",
+      "validation": {
+        "reason": "generic price has no geographic evidence",
+        "status": "CandidateObservation"
+      },
+      "weight": {
+        "unit": "кг",
+        "value": 0.45
+      },
+      "xml_id": 77393
+    },
+    {
+      "authorization_mode": "Anonymous",
+      "availability": null,
+      "brand": null,
+      "category": [
+        {
+          "id": 51751,
+          "name": "Хлеб на закваске",
+          "slug": "khleb-na-zakvaske",
+          "url": "https://vkusvill.ru/goods/khleb-i-vypechka/khleb-na-zakvaske/"
+        },
+        {
+          "id": 51750,
+          "name": "Хлеб и выпечка",
+          "slug": "khleb-i-vypechka",
+          "url": "https://vkusvill.ru/goods/khleb-i-vypechka/"
+        }
+      ],
+      "collected_at": "2026-10-10T10:47:41.247416200Z",
+      "id": 101575,
+      "name": "Тартин зерновой, 300г. Пекарня",
+      "normalized_price": {
+        "unit": "RUB/kg",
+        "value": "523.33"
+      },
+      "package": {
+        "amount": "0.3",
+        "basis": "mcp_weight",
+        "normalized_quantity": "0.3",
+        "normalized_unit": "kg",
+        "unit": "кг"
+      },
+      "personalized": false,
+      "price": {
+        "currency": "RUB",
+        "current": 157,
+        "discount_info": null,
+        "discount_percent": null,
+        "old": null
+      },
+      "query": "хлеб",
+      "rating": {
+        "average": 4.9,
+        "count": 6940
+      },
+      "source": "https://mcp.vkusvill.ru/mcp",
+      "store_address": null,
+      "store_binding": "Generic",
+      "store_id": null,
+      "tool": "vkusvill_products_search",
+      "unit": "шт",
+      "url": "https://vkusvill.ru/goods/tartin-zernovoy-101575/",
+      "validation": {
+        "reason": "generic price has no geographic evidence",
+        "status": "CandidateObservation"
+      },
+      "weight": {
+        "unit": "кг",
+        "value": 0.3
+      },
+      "xml_id": 101575
+    },
+    {
+      "authorization_mode": "Anonymous",
+      "availability": null,
+      "brand": null,
+      "category": [
+        {
+          "id": 77383,
+          "name": "Хлеб в нарезке",
+          "slug": "khleb-v-narezke",
+          "url": "https://vkusvill.ru/goods/khleb-i-vypechka/khleb-v-narezke/"
+        },
+        {
+          "id": 51750,
+          "name": "Хлеб и выпечка",
+          "slug": "khleb-i-vypechka",
+          "url": "https://vkusvill.ru/goods/khleb-i-vypechka/"
+        }
+      ],
+      "collected_at": "2026-10-10T10:47:41.247416200Z",
+      "id": 113571,
+      "name": "Батон \"Молодежная классика\", нарезка",
+      "normalized_price": {
+        "unit": "RUB/kg",
+        "value": "171.43"
+      },
+      "package": {
+        "amount": "0.35",
+        "basis": "mcp_weight",
+        "normalized_quantity": "0.35",
+        "normalized_unit": "kg",
+        "unit": "кг"
+      },
+      "personalized": false,
+      "price": {
+        "currency": "RUB",
+        "current": 60,
+        "discount_info": null,
+        "discount_percent": null,
+        "old": null
+      },
+      "query": "хлеб",
+      "rating": {
+        "average": 4.8,
+        "count": 130119
+      },
+      "source": "https://mcp.vkusvill.ru/mcp",
+      "store_address": null,
+      "store_binding": "Generic",
+      "store_id": null,
+      "tool": "vkusvill_products_search",
+      "unit": "шт",
+      "url": "https://vkusvill.ru/goods/baton-molodezhnaya-klassika-113571/",
+      "validation": {
+        "reason": "generic price has no geographic evidence",
+        "status": "CandidateObservation"
+      },
+      "weight": {
+        "unit": "кг",
+        "value": 0.35
+      },
+      "xml_id": 113571
+    },
+    {
+      "authorization_mode": "Anonymous",
+      "availability": null,
+      "brand": null,
+      "category": [
+        {
+          "id": 51814,
+          "name": "Хлеб и выпечка без лактозы",
+          "slug": "khleb-i-vypechka-bez-laktozy",
+          "url": "https://vkusvill.ru/goods/osoboe-pitanie/produkty-bez-laktozy/khleb-i-vypechka-bez-laktozy/"
+        },
+        {
+          "id": 51806,
+          "name": "Продукты без лактозы",
+          "slug": "produkty-bez-laktozy",
+          "url": "https://vkusvill.ru/goods/osoboe-pitanie/produkty-bez-laktozy/"
+        },
+        {
+          "id": 51782,
+          "name": "Особое питание",
+          "slug": "osoboe-pitanie",
+          "url": "https://vkusvill.ru/goods/osoboe-pitanie/"
+        }
+      ],
+      "collected_at": "2026-10-10T10:47:41.247416200Z",
+      "id": 34217,
+      "name": "Батон нарезной, половинка",
+      "normalized_price": {
+        "unit": "RUB/kg",
+        "value": "230"
+      },
+      "package": {
+        "amount": "0.2",
+        "basis": "mcp_weight",
+        "normalized_quantity": "0.2",
+        "normalized_unit": "kg",
+        "unit": "кг"
+      },
+      "personalized": false,
+      "price": {
+        "currency": "RUB",
+        "current": 46,
+        "discount_info": null,
+        "discount_percent": null,
+        "old": null
+      },
+      "query": "хлеб",
+      "rating": {
+        "average": 4.9,
+        "count": 142930
+      },
+      "source": "https://mcp.vkusvill.ru/mcp",
+      "store_address": null,
+      "store_binding": "Generic",
+      "store_id": null,
+      "tool": "vkusvill_products_search",
+      "unit": "шт",
+      "url": "https://vkusvill.ru/goods/baton-nareznoy-34217/",
+      "validation": {
+        "reason": "generic price has no geographic evidence",
+        "status": "CandidateObservation"
+      },
+      "weight": {
+        "unit": "кг",
+        "value": 0.2
+      },
+      "xml_id": 34217
+    },
+    {
+      "authorization_mode": "Anonymous",
+      "availability": null,
+      "brand": null,
+      "category": [
+        {
+          "id": 71688,
+          "name": "Помидоры",
+          "slug": "pomidory",
+          "url": "https://vkusvill.ru/goods/ovoshchi-frukty-yagody-zelen/ovoshchi/pomidory/"
+        },
+        {
+          "id": 71687,
+          "name": "Овощи",
+          "slug": "ovoshchi",
+          "url": "https://vkusvill.ru/goods/ovoshchi-frukty-yagody-zelen/ovoshchi/"
+        },
+        {
+          "id": 71686,
+          "name": "Овощи, фрукты, ягоды, зелень",
+          "slug": "ovoshchi-frukty-yagody-zelen",
+          "url": "https://vkusvill.ru/goods/ovoshchi-frukty-yagody-zelen/"
+        }
+      ],
+      "collected_at": "2026-10-10T10:47:41.247416200Z",
+      "id": 15378,
+      "name": "Томаты розовые",
+      "normalized_price": {
+        "unit": "RUB/kg",
+        "value": "265"
+      },
+      "package": {
+        "amount": "1",
+        "basis": "mcp_unit_price",
+        "normalized_quantity": "1",
+        "normalized_unit": "kg",
+        "unit": "кг"
+      },
+      "personalized": false,
+      "price": {
+        "currency": "RUB",
+        "current": 265,
+        "discount_info": null,
+        "discount_percent": null,
+        "old": null
+      },
+      "query": "помидоры",
+      "rating": {
+        "average": 4.7,
+        "count": 69355
+      },
+      "source": "https://mcp.vkusvill.ru/mcp",
+      "store_address": null,
+      "store_binding": "Generic",
+      "store_id": null,
+      "tool": "vkusvill_products_search",
+      "unit": "кг",
+      "url": "https://vkusvill.ru/goods/tomaty-rozovye-15378/",
+      "validation": {
+        "reason": "generic price has no geographic evidence",
+        "status": "CandidateObservation"
+      },
+      "xml_id": 15378
+    },
+    {
+      "authorization_mode": "Anonymous",
+      "availability": null,
+      "brand": null,
+      "category": [
+        {
+          "id": 71688,
+          "name": "Помидоры",
+          "slug": "pomidory",
+          "url": "https://vkusvill.ru/goods/ovoshchi-frukty-yagody-zelen/ovoshchi/pomidory/"
+        },
+        {
+          "id": 71687,
+          "name": "Овощи",
+          "slug": "ovoshchi",
+          "url": "https://vkusvill.ru/goods/ovoshchi-frukty-yagody-zelen/ovoshchi/"
+        },
+        {
+          "id": 71686,
+          "name": "Овощи, фрукты, ягоды, зелень",
+          "slug": "ovoshchi-frukty-yagody-zelen",
+          "url": "https://vkusvill.ru/goods/ovoshchi-frukty-yagody-zelen/"
+        }
+      ],
+      "collected_at": "2026-10-10T10:47:41.247416200Z",
+      "id": 22564,
+      "name": "Томаты Махитос",
+      "normalized_price": {
+        "unit": "RUB/kg",
+        "value": "325"
+      },
+      "package": {
+        "amount": "1",
+        "basis": "mcp_unit_price",
+        "normalized_quantity": "1",
+        "normalized_unit": "kg",
+        "unit": "кг"
+      },
+      "personalized": false,
+      "price": {
+        "currency": "RUB",
+        "current": 325,
+        "discount_info": null,
+        "discount_percent": null,
+        "old": null
+      },
+      "query": "помидоры",
+      "rating": {
+        "average": 4.7,
+        "count": 58363
+      },
+      "source": "https://mcp.vkusvill.ru/mcp",
+      "store_address": null,
+      "store_binding": "Generic",
+      "store_id": null,
+      "tool": "vkusvill_products_search",
+      "unit": "кг",
+      "url": "https://vkusvill.ru/goods/tomaty-makhitos-22564/",
+      "validation": {
+        "reason": "generic price has no geographic evidence",
+        "status": "CandidateObservation"
+      },
+      "xml_id": 22564
+    },
+    {
+      "authorization_mode": "Anonymous",
+      "availability": null,
+      "brand": null,
+      "category": [
+        {
+          "id": 71688,
+          "name": "Помидоры",
+          "slug": "pomidory",
+          "url": "https://vkusvill.ru/goods/ovoshchi-frukty-yagody-zelen/ovoshchi/pomidory/"
+        },
+        {
+          "id": 71687,
+          "name": "Овощи",
+          "slug": "ovoshchi",
+          "url": "https://vkusvill.ru/goods/ovoshchi-frukty-yagody-zelen/ovoshchi/"
+        },
+        {
+          "id": 71686,
+          "name": "Овощи, фрукты, ягоды, зелень",
+          "slug": "ovoshchi-frukty-yagody-zelen",
+          "url": "https://vkusvill.ru/goods/ovoshchi-frukty-yagody-zelen/"
+        }
+      ],
+      "collected_at": "2026-10-10T10:47:41.247416200Z",
+      "id": 69992,
+      "name": "Томаты сливка Фламенко, 450&nbsp;г",
+      "normalized_price": {
+        "unit": "RUB/kg",
+        "value": "588.89"
+      },
+      "package": {
+        "amount": "450",
+        "basis": "product_name",
+        "normalized_quantity": "0.45",
+        "normalized_unit": "kg",
+        "unit": "г"
+      },
+      "personalized": false,
+      "price": {
+        "currency": "RUB",
+        "current": 265,
+        "discount_info": null,
+        "discount_percent": null,
+        "old": null
+      },
+      "query": "помидоры",
+      "rating": {
+        "average": 4.8,
+        "count": 13107
+      },
+      "source": "https://mcp.vkusvill.ru/mcp",
+      "store_address": null,
+      "store_binding": "Generic",
+      "store_id": null,
+      "tool": "vkusvill_products_search",
+      "unit": "шт",
+      "url": "https://vkusvill.ru/goods/tomaty-slivka-flamenko-69992/",
+      "validation": {
+        "reason": "generic price has no geographic evidence",
+        "status": "CandidateObservation"
+      },
+      "weight": {
+        "unit": "кг",
+        "value": 0.45
+      },
+      "xml_id": 69992
+    },
+    {
+      "authorization_mode": "Anonymous",
+      "availability": null,
+      "brand": null,
+      "category": [
+        {
+          "id": 71692,
+          "name": "Яблоки",
+          "slug": "yabloki",
+          "url": "https://vkusvill.ru/goods/ovoshchi-frukty-yagody-zelen/frukty/yabloki/"
+        },
+        {
+          "id": 71690,
+          "name": "Фрукты",
+          "slug": "frukty",
+          "url": "https://vkusvill.ru/goods/ovoshchi-frukty-yagody-zelen/frukty/"
+        },
+        {
+          "id": 71686,
+          "name": "Овощи, фрукты, ягоды, зелень",
+          "slug": "ovoshchi-frukty-yagody-zelen",
+          "url": "https://vkusvill.ru/goods/ovoshchi-frukty-yagody-zelen/"
+        }
+      ],
+      "collected_at": "2026-10-10T10:47:41.247416200Z",
+      "id": 29450,
+      "name": "Яблоко Медовый хруст",
+      "normalized_price": {
+        "unit": "RUB/kg",
+        "value": "210"
+      },
+      "package": {
+        "amount": "1",
+        "basis": "mcp_unit_price",
+        "normalized_quantity": "1",
+        "normalized_unit": "kg",
+        "unit": "кг"
+      },
+      "personalized": false,
+      "price": {
+        "currency": "RUB",
+        "current": 210,
+        "discount_info": null,
+        "discount_percent": null,
+        "old": null
+      },
+      "query": "яблоки",
+      "rating": {
+        "average": 4.9,
+        "count": 25747
+      },
+      "source": "https://mcp.vkusvill.ru/mcp",
+      "store_address": null,
+      "store_binding": "Generic",
+      "store_id": null,
+      "tool": "vkusvill_products_search",
+      "unit": "кг",
+      "url": "https://vkusvill.ru/goods/yabloko-medovyy-khrust-29450/",
+      "validation": {
+        "reason": "generic price has no geographic evidence",
+        "status": "CandidateObservation"
+      },
+      "xml_id": 29450
+    },
+    {
+      "authorization_mode": "Anonymous",
+      "availability": null,
+      "brand": null,
+      "category": [
+        {
+          "id": 71692,
+          "name": "Яблоки",
+          "slug": "yabloki",
+          "url": "https://vkusvill.ru/goods/ovoshchi-frukty-yagody-zelen/frukty/yabloki/"
+        },
+        {
+          "id": 71690,
+          "name": "Фрукты",
+          "slug": "frukty",
+          "url": "https://vkusvill.ru/goods/ovoshchi-frukty-yagody-zelen/frukty/"
+        },
+        {
+          "id": 71686,
+          "name": "Овощи, фрукты, ягоды, зелень",
+          "slug": "ovoshchi-frukty-yagody-zelen",
+          "url": "https://vkusvill.ru/goods/ovoshchi-frukty-yagody-zelen/"
+        }
+      ],
+      "collected_at": "2026-10-10T10:47:41.247416200Z",
+      "id": 15846,
+      "name": "Яблоко Гала",
+      "normalized_price": {
+        "unit": "RUB/kg",
+        "value": "145"
+      },
+      "package": {
+        "amount": "1",
+        "basis": "mcp_unit_price",
+        "normalized_quantity": "1",
+        "normalized_unit": "kg",
+        "unit": "кг"
+      },
+      "personalized": false,
+      "price": {
+        "currency": "RUB",
+        "current": 145,
+        "discount_info": null,
+        "discount_percent": null,
+        "old": null
+      },
+      "query": "яблоки",
+      "rating": {
+        "average": 4.8,
+        "count": 26610
+      },
+      "source": "https://mcp.vkusvill.ru/mcp",
+      "store_address": null,
+      "store_binding": "Generic",
+      "store_id": null,
+      "tool": "vkusvill_products_search",
+      "unit": "кг",
+      "url": "https://vkusvill.ru/goods/yabloko-gala-15846/",
+      "validation": {
+        "reason": "generic price has no geographic evidence",
+        "status": "CandidateObservation"
+      },
+      "xml_id": 15846
+    },
+    {
+      "authorization_mode": "Anonymous",
+      "availability": null,
+      "brand": null,
+      "category": [
+        {
+          "id": 71692,
+          "name": "Яблоки",
+          "slug": "yabloki",
+          "url": "https://vkusvill.ru/goods/ovoshchi-frukty-yagody-zelen/frukty/yabloki/"
+        },
+        {
+          "id": 71690,
+          "name": "Фрукты",
+          "slug": "frukty",
+          "url": "https://vkusvill.ru/goods/ovoshchi-frukty-yagody-zelen/frukty/"
+        },
+        {
+          "id": 71686,
+          "name": "Овощи, фрукты, ягоды, зелень",
+          "slug": "ovoshchi-frukty-yagody-zelen",
+          "url": "https://vkusvill.ru/goods/ovoshchi-frukty-yagody-zelen/"
+        }
+      ],
+      "collected_at": "2026-10-10T10:47:41.247416200Z",
+      "id": 81271,
+      "name": "Яблоко крымское красное",
+      "normalized_price": {
+        "unit": "RUB/kg",
+        "value": "195"
+      },
+      "package": {
+        "amount": "1",
+        "basis": "mcp_unit_price",
+        "normalized_quantity": "1",
+        "normalized_unit": "kg",
+        "unit": "кг"
+      },
+      "personalized": false,
+      "price": {
+        "currency": "RUB",
+        "current": 195,
+        "discount_info": null,
+        "discount_percent": null,
+        "old": null
+      },
+      "query": "яблоки",
+      "rating": {
+        "average": 4.9,
+        "count": 17023
+      },
+      "source": "https://mcp.vkusvill.ru/mcp",
+      "store_address": null,
+      "store_binding": "Generic",
+      "store_id": null,
+      "tool": "vkusvill_products_search",
+      "unit": "кг",
+      "url": "https://vkusvill.ru/goods/yabloko-krymskoe-krasnoe-81271/",
+      "validation": {
+        "reason": "generic price has no geographic evidence",
+        "status": "CandidateObservation"
+      },
+      "xml_id": 81271
+    },
+    {
+      "authorization_mode": "Anonymous",
+      "availability": null,
+      "brand": null,
+      "category": [
+        {
+          "id": 50342,
+          "name": "Курица",
+          "slug": "kuritsa",
+          "url": "https://vkusvill.ru/goods/myaso-ptitsa/kuritsa/"
+        },
+        {
+          "id": 50328,
+          "name": "Мясо, птица",
+          "slug": "myaso-ptitsa",
+          "url": "https://vkusvill.ru/goods/myaso-ptitsa/"
+        }
+      ],
+      "collected_at": "2026-10-10T10:47:41.247416200Z",
+      "id": 484,
+      "name": "Тушка цыпленка-бройлера, охлажденная",
+      "normalized_price": {
+        "unit": "RUB/kg",
+        "value": "296"
+      },
+      "package": {
+        "amount": "1",
+        "basis": "mcp_unit_price",
+        "normalized_quantity": "1",
+        "normalized_unit": "kg",
+        "unit": "кг"
+      },
+      "personalized": false,
+      "price": {
+        "currency": "RUB",
+        "current": 296,
+        "discount_info": null,
+        "discount_percent": null,
+        "old": null
+      },
+      "query": "курица",
+      "rating": {
+        "average": 4.9,
+        "count": 25923
+      },
+      "source": "https://mcp.vkusvill.ru/mcp",
+      "store_address": null,
+      "store_binding": "Generic",
+      "store_id": null,
+      "tool": "vkusvill_products_search",
+      "unit": "кг",
+      "url": "https://vkusvill.ru/goods/tushka-tsyplenka-broylera-484/",
+      "validation": {
+        "reason": "generic price has no geographic evidence",
+        "status": "CandidateObservation"
+      },
+      "xml_id": 484
+    },
+    {
+      "authorization_mode": "Anonymous",
+      "availability": null,
+      "brand": null,
+      "category": [
+        {
+          "id": 50342,
+          "name": "Курица",
+          "slug": "kuritsa",
+          "url": "https://vkusvill.ru/goods/myaso-ptitsa/kuritsa/"
+        },
+        {
+          "id": 50328,
+          "name": "Мясо, птица",
+          "slug": "myaso-ptitsa",
+          "url": "https://vkusvill.ru/goods/myaso-ptitsa/"
+        }
+      ],
+      "collected_at": "2026-10-10T10:47:41.247416200Z",
+      "id": 19419,
+      "name": "Бедро цыпленка-бройлера бескостное (филе бедра)",
+      "normalized_price": {
+        "unit": "RUB/kg",
+        "value": "694"
+      },
+      "package": {
+        "amount": "1",
+        "basis": "mcp_unit_price",
+        "normalized_quantity": "1",
+        "normalized_unit": "kg",
+        "unit": "кг"
+      },
+      "personalized": false,
+      "price": {
+        "currency": "RUB",
+        "current": 694,
+        "discount_info": null,
+        "discount_percent": null,
+        "old": null
+      },
+      "query": "курица",
+      "rating": {
+        "average": 4.9,
+        "count": 74287
+      },
+      "source": "https://mcp.vkusvill.ru/mcp",
+      "store_address": null,
+      "store_binding": "Generic",
+      "store_id": null,
+      "tool": "vkusvill_products_search",
+      "unit": "кг",
+      "url": "https://vkusvill.ru/goods/bedro-tsyplenka-broylera-beskostnoe-file-bedra-19419/",
+      "validation": {
+        "reason": "generic price has no geographic evidence",
+        "status": "CandidateObservation"
+      },
+      "xml_id": 19419
+    },
+    {
+      "authorization_mode": "Anonymous",
+      "availability": null,
+      "brand": null,
+      "category": [
+        {
+          "id": 50342,
+          "name": "Курица",
+          "slug": "kuritsa",
+          "url": "https://vkusvill.ru/goods/myaso-ptitsa/kuritsa/"
+        },
+        {
+          "id": 50328,
+          "name": "Мясо, птица",
+          "slug": "myaso-ptitsa",
+          "url": "https://vkusvill.ru/goods/myaso-ptitsa/"
+        }
+      ],
+      "collected_at": "2026-10-10T10:47:41.247416200Z",
+      "id": 488,
+      "name": "Филе грудки цыпленка-бройлера",
+      "normalized_price": {
+        "unit": "RUB/kg",
+        "value": "656"
+      },
+      "package": {
+        "amount": "1",
+        "basis": "mcp_unit_price",
+        "normalized_quantity": "1",
+        "normalized_unit": "kg",
+        "unit": "кг"
+      },
+      "personalized": false,
+      "price": {
+        "currency": "RUB",
+        "current": 656,
+        "discount_info": null,
+        "discount_percent": null,
+        "old": null
+      },
+      "query": "курица",
+      "rating": {
+        "average": 4.9,
+        "count": 39381
+      },
+      "source": "https://mcp.vkusvill.ru/mcp",
+      "store_address": null,
+      "store_binding": "Generic",
+      "store_id": null,
+      "tool": "vkusvill_products_search",
+      "unit": "кг",
+      "url": "https://vkusvill.ru/goods/file-grudki-tsyplenka-broylera-488/",
+      "validation": {
+        "reason": "generic price has no geographic evidence",
+        "status": "CandidateObservation"
+      },
+      "xml_id": 488
+    },
+    {
+      "authorization_mode": "Anonymous",
+      "availability": null,
+      "brand": null,
+      "category": [
+        {
+          "id": 60233,
+          "name": "Рыба соленая и деликатесы",
+          "slug": "ryba-solenaya-i-delikatesy",
+          "url": "https://vkusvill.ru/goods/vegetarianskoe-i-postnoe/rastitelnoe-i-s-soderzhaniem-ryby-yaits-i-moloka/ryba-solenaya-i-delikatesy/"
+        },
+        {
+          "id": 60206,
+          "name": "Растительное и с содержанием рыбы, яиц и молока",
+          "slug": "rastitelnoe-i-s-soderzhaniem-ryby-yaits-i-moloka",
+          "url": "https://vkusvill.ru/goods/vegetarianskoe-i-postnoe/rastitelnoe-i-s-soderzhaniem-ryby-yaits-i-moloka/"
+        },
+        {
+          "id": 60051,
+          "name": "Вегетарианское и постное",
+          "slug": "vegetarianskoe-i-postnoe",
+          "url": "https://vkusvill.ru/goods/vegetarianskoe-i-postnoe/"
+        }
+      ],
+      "collected_at": "2026-10-10T10:47:41.247416200Z",
+      "id": 16589,
+      "name": "Форель малосоленая ломтики, 150&nbsp;г",
+      "normalized_price": {
+        "unit": "RUB/kg",
+        "value": "3500"
+      },
+      "package": {
+        "amount": "150",
+        "basis": "product_name",
+        "normalized_quantity": "0.15",
+        "normalized_unit": "kg",
+        "unit": "г"
+      },
+      "personalized": false,
+      "price": {
+        "currency": "RUB",
+        "current": 525,
+        "discount_info": null,
+        "discount_percent": null,
+        "old": null
+      },
+      "query": "лосось",
+      "rating": {
+        "average": 4.8,
+        "count": 26724
+      },
+      "source": "https://mcp.vkusvill.ru/mcp",
+      "store_address": null,
+      "store_binding": "Generic",
+      "store_id": null,
+      "tool": "vkusvill_products_search",
+      "unit": "шт",
+      "url": "https://vkusvill.ru/goods/forel-malosolenaya-lomtiki-16589/",
+      "validation": {
+        "reason": "generic price has no geographic evidence",
+        "status": "CandidateObservation"
+      },
+      "weight": {
+        "unit": "кг",
+        "value": 0.15
+      },
+      "xml_id": 16589
+    },
+    {
+      "authorization_mode": "Anonymous",
+      "availability": null,
+      "brand": null,
+      "category": [
+        {
+          "id": 60233,
+          "name": "Рыба соленая и деликатесы",
+          "slug": "ryba-solenaya-i-delikatesy",
+          "url": "https://vkusvill.ru/goods/vegetarianskoe-i-postnoe/rastitelnoe-i-s-soderzhaniem-ryby-yaits-i-moloka/ryba-solenaya-i-delikatesy/"
+        },
+        {
+          "id": 60206,
+          "name": "Растительное и с содержанием рыбы, яиц и молока",
+          "slug": "rastitelnoe-i-s-soderzhaniem-ryby-yaits-i-moloka",
+          "url": "https://vkusvill.ru/goods/vegetarianskoe-i-postnoe/rastitelnoe-i-s-soderzhaniem-ryby-yaits-i-moloka/"
+        },
+        {
+          "id": 60051,
+          "name": "Вегетарианское и постное",
+          "slug": "vegetarianskoe-i-postnoe",
+          "url": "https://vkusvill.ru/goods/vegetarianskoe-i-postnoe/"
+        }
+      ],
+      "collected_at": "2026-10-10T10:47:41.247416200Z",
+      "id": 66659,
+      "name": "Горбуша слабосоленая ломтики, 100&nbsp;г",
+      "normalized_price": {
+        "unit": "RUB/kg",
+        "value": "3530"
+      },
+      "package": {
+        "amount": "100",
+        "basis": "product_name",
+        "normalized_quantity": "0.1",
+        "normalized_unit": "kg",
+        "unit": "г"
+      },
+      "personalized": false,
+      "price": {
+        "currency": "RUB",
+        "current": 353,
+        "discount_info": null,
+        "discount_percent": null,
+        "old": null
+      },
+      "query": "лосось",
+      "rating": {
+        "average": 4.8,
+        "count": 45074
+      },
+      "source": "https://mcp.vkusvill.ru/mcp",
+      "store_address": null,
+      "store_binding": "Generic",
+      "store_id": null,
+      "tool": "vkusvill_products_search",
+      "unit": "шт",
+      "url": "https://vkusvill.ru/goods/gorbusha-slabosolenaya-lomtiki-66659/",
+      "validation": {
+        "reason": "generic price has no geographic evidence",
+        "status": "CandidateObservation"
+      },
+      "weight": {
+        "unit": "кг",
+        "value": 0.1
+      },
+      "xml_id": 66659
+    },
+    {
+      "authorization_mode": "Anonymous",
+      "availability": null,
+      "brand": null,
+      "category": [
+        {
+          "id": 60233,
+          "name": "Рыба соленая и деликатесы",
+          "slug": "ryba-solenaya-i-delikatesy",
+          "url": "https://vkusvill.ru/goods/vegetarianskoe-i-postnoe/rastitelnoe-i-s-soderzhaniem-ryby-yaits-i-moloka/ryba-solenaya-i-delikatesy/"
+        },
+        {
+          "id": 60206,
+          "name": "Растительное и с содержанием рыбы, яиц и молока",
+          "slug": "rastitelnoe-i-s-soderzhaniem-ryby-yaits-i-moloka",
+          "url": "https://vkusvill.ru/goods/vegetarianskoe-i-postnoe/rastitelnoe-i-s-soderzhaniem-ryby-yaits-i-moloka/"
+        },
+        {
+          "id": 60051,
+          "name": "Вегетарианское и постное",
+          "slug": "vegetarianskoe-i-postnoe",
+          "url": "https://vkusvill.ru/goods/vegetarianskoe-i-postnoe/"
+        }
+      ],
+      "collected_at": "2026-10-10T10:47:41.247416200Z",
+      "id": 65549,
+      "name": "Семга слабосоленая ломтики, 100&nbsp;г",
+      "normalized_price": {
+        "unit": "RUB/kg",
+        "value": "4670"
+      },
+      "package": {
+        "amount": "100",
+        "basis": "product_name",
+        "normalized_quantity": "0.1",
+        "normalized_unit": "kg",
+        "unit": "г"
+      },
+      "personalized": false,
+      "price": {
+        "currency": "RUB",
+        "current": 467,
+        "discount_info": null,
+        "discount_percent": null,
+        "old": null
+      },
+      "query": "лосось",
+      "rating": {
+        "average": 4.8,
+        "count": 11157
+      },
+      "source": "https://mcp.vkusvill.ru/mcp",
+      "store_address": null,
+      "store_binding": "Generic",
+      "store_id": null,
+      "tool": "vkusvill_products_search",
+      "unit": "шт",
+      "url": "https://vkusvill.ru/goods/semga-slabosolenaya-lomtiki-65549/",
+      "validation": {
+        "reason": "generic price has no geographic evidence",
+        "status": "CandidateObservation"
+      },
+      "weight": {
+        "unit": "кг",
+        "value": 0.1
+      },
+      "xml_id": 65549
+    },
+    {
+      "authorization_mode": "Anonymous",
+      "availability": null,
+      "brand": null,
+      "category": [
+        {
+          "id": 71700,
+          "name": "Кофе молотый",
+          "slug": "kofe-molotyy",
+          "url": "https://vkusvill.ru/goods/chay-i-kofe/kofe/kofe-molotyy/"
+        },
+        {
+          "id": 51256,
+          "name": "Кофе",
+          "slug": "kofe",
+          "url": "https://vkusvill.ru/goods/chay-i-kofe/kofe/"
+        },
+        {
+          "id": 51254,
+          "name": "Чай и кофе",
+          "slug": "chay-i-kofe",
+          "url": "https://vkusvill.ru/goods/chay-i-kofe/"
+        }
+      ],
+      "collected_at": "2026-10-10T10:47:41.247416200Z",
+      "id": 81078,
+      "name": "Кофе молотый в дрип-пакетах \"Ассорти\" 6 шт",
+      "normalized_price": {
+        "unit": "RUB/piece",
+        "value": "53"
+      },
+      "package": {
+        "amount": "6",
+        "basis": "product_name",
+        "normalized_quantity": "6",
+        "normalized_unit": "piece",
+        "unit": "шт"
+      },
+      "personalized": false,
+      "price": {
+        "currency": "RUB",
+        "current": 318,
+        "discount_info": null,
+        "discount_percent": null,
+        "old": null
+      },
+      "query": "кофе",
+      "rating": {
+        "average": 5,
+        "count": 23339
+      },
+      "source": "https://mcp.vkusvill.ru/mcp",
+      "store_address": null,
+      "store_binding": "Generic",
+      "store_id": null,
+      "tool": "vkusvill_products_search",
+      "unit": "шт",
+      "url": "https://vkusvill.ru/goods/kofe-molotyy-v-drip-paketakh-assorti-6-sht-81078/",
+      "validation": {
+        "reason": "generic price has no geographic evidence",
+        "status": "CandidateObservation"
+      },
+      "weight": {
+        "unit": "кг",
+        "value": 0.06
+      },
+      "xml_id": 81078
+    },
+    {
+      "authorization_mode": "Anonymous",
+      "availability": null,
+      "brand": null,
+      "category": [
+        {
+          "id": 71700,
+          "name": "Кофе молотый",
+          "slug": "kofe-molotyy",
+          "url": "https://vkusvill.ru/goods/chay-i-kofe/kofe/kofe-molotyy/"
+        },
+        {
+          "id": 51256,
+          "name": "Кофе",
+          "slug": "kofe",
+          "url": "https://vkusvill.ru/goods/chay-i-kofe/kofe/"
+        },
+        {
+          "id": 51254,
+          "name": "Чай и кофе",
+          "slug": "chay-i-kofe",
+          "url": "https://vkusvill.ru/goods/chay-i-kofe/"
+        }
+      ],
+      "collected_at": "2026-10-10T10:47:41.247416200Z",
+      "id": 72854,
+      "name": "Кофе жареный молотый в дрип-пакетах \"Бразилия\"",
+      "normalized_price": {
+        "unit": "RUB/kg",
+        "value": "5216.67"
+      },
+      "package": {
+        "amount": "0.06",
+        "basis": "mcp_weight",
+        "normalized_quantity": "0.06",
+        "normalized_unit": "kg",
+        "unit": "кг"
+      },
+      "personalized": false,
+      "price": {
+        "currency": "RUB",
+        "current": 313,
+        "discount_info": null,
+        "discount_percent": null,
+        "old": null
+      },
+      "query": "кофе",
+      "rating": {
+        "average": 4.9,
+        "count": 16355
+      },
+      "source": "https://mcp.vkusvill.ru/mcp",
+      "store_address": null,
+      "store_binding": "Generic",
+      "store_id": null,
+      "tool": "vkusvill_products_search",
+      "unit": "шт",
+      "url": "https://vkusvill.ru/goods/kofe-zharenyy-molotyy-v-drip-paketakh-braziliya-72854/",
+      "validation": {
+        "reason": "generic price has no geographic evidence",
+        "status": "CandidateObservation"
+      },
+      "weight": {
+        "unit": "кг",
+        "value": 0.06
+      },
+      "xml_id": 72854
+    },
+    {
+      "authorization_mode": "Anonymous",
+      "availability": null,
+      "brand": null,
+      "category": [
+        {
+          "id": 78503,
+          "name": "Кофе в дрип пакетах",
+          "slug": "kofe-v-drip-paketakh",
+          "url": "https://vkusvill.ru/goods/chay-i-kofe/kofe/kofe-v-drip-paketakh/"
+        },
+        {
+          "id": 51256,
+          "name": "Кофе",
+          "slug": "kofe",
+          "url": "https://vkusvill.ru/goods/chay-i-kofe/kofe/"
+        },
+        {
+          "id": 51254,
+          "name": "Чай и кофе",
+          "slug": "chay-i-kofe",
+          "url": "https://vkusvill.ru/goods/chay-i-kofe/"
+        }
+      ],
+      "collected_at": "2026-10-10T10:47:41.247416200Z",
+      "id": 93810,
+      "name": "Кофе жареный молотый в дрип-пакете \"Бразилия\", 1 шт",
+      "normalized_price": {
+        "unit": "RUB/piece",
+        "value": "64"
+      },
+      "package": {
+        "amount": "1",
+        "basis": "product_name",
+        "normalized_quantity": "1",
+        "normalized_unit": "piece",
+        "unit": "шт"
+      },
+      "personalized": false,
+      "price": {
+        "currency": "RUB",
+        "current": 64,
+        "discount_info": null,
+        "discount_percent": null,
+        "old": null
+      },
+      "query": "кофе",
+      "rating": {
+        "average": 4.9,
+        "count": 20935
+      },
+      "source": "https://mcp.vkusvill.ru/mcp",
+      "store_address": null,
+      "store_binding": "Generic",
+      "store_id": null,
+      "tool": "vkusvill_products_search",
+      "unit": "шт",
+      "url": "https://vkusvill.ru/goods/kofe-zharenyy-molotyy-v-drip-pakete-braziliya-93810/",
+      "validation": {
+        "reason": "generic price has no geographic evidence",
+        "status": "CandidateObservation"
+      },
+      "weight": {
+        "unit": "кг",
+        "value": 0.01
+      },
+      "xml_id": 93810
+    }
+  ],
+  "empty_category_checks": [
+    {
+      "interpretation": "No public search results.",
+      "query": "презервативы",
+      "returned_names": [],
+      "total": 0
+    },
+    {
+      "interpretation": "No public search results.",
+      "query": "Contex",
+      "returned_names": [],
+      "total": 0
+    },
+    {
+      "interpretation": "No public search results.",
+      "query": "Durex",
+      "returned_names": [],
+      "total": 0
+    },
+    {
+      "interpretation": "Results were reviewed for real alcoholic drinks; unrelated and non-alcoholic matches do not prove alcoholic catalog coverage.",
+      "query": "алкогольное вино",
+      "returned_names": [
+        "Вино \"Симпли 0\" безалкогольное красное полусладкое, 750&nbsp;мл",
+        "Вино \"Симпли 0\" безалкогольное игристое белое сладкое, 750&nbsp;мл",
+        "Вино безалкогольное \"Каберне Совиньон\" красное сухое, 750&nbsp;мл",
+        "Вино \"Майбах\" рислинг безалкогольный, 750&nbsp;мл",
+        "Вино \"Майбах\" белое безалкогольное, 750&nbsp;мл"
+      ],
+      "total": 28
+    },
+    {
+      "interpretation": "Results were reviewed for real alcoholic drinks; unrelated and non-alcoholic matches do not prove alcoholic catalog coverage.",
+      "query": "водка коньяк виски",
+      "returned_names": [
+        "Ватные диски Bella Cotton 140 шт",
+        "Диски ватные, 120 шт",
+        "Конфеты шоколадные Победа вкуса Трюфели с коньяком и с ликером айриш крем без сахара 150&nbsp;г",
+        "Ватные диски Marabu Botanica зип-пакет прошивные 100 шт",
+        "Миска для домашних животных металлическая на силиконовой подставке Homepet, 450 мл"
+      ],
+      "total": 15
+    }
+  ]
+}
